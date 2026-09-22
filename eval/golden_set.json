@@ -1,0 +1,86 @@
+[
+  {
+    "id": "q01",
+    "question": "What is Apple's primary exposure to foreign exchange rate risk, and what is its estimated maximum one-day loss from foreign currency derivative positions?",
+    "type": "answerable",
+    "expected_items": ["1A", "7A"],
+    "reference_answer": "Apple is primarily a net receiver of currencies other than the U.S. dollar, so its FX exposure relates mainly to non-U.S.-dollar-denominated sales, costs, and operating expenses; a strengthening dollar pressures the dollar value of foreign sales and gross margins. Using a Value-at-Risk model at 95% confidence, Apple estimated a maximum one-day loss in fair value of its foreign currency derivative positions of $590 million as of September 27, 2025 (versus $538 million the prior year)."
+  },
+   {
+  "id": "q02",
+  "question": "What factors can impact Apple's future gross margins?",
+  "type": "answerable",
+  "expected_items": ["1A", "7"],
+  "reference_answer": "Apple states gross margins are subject to volatility and downward pressure. Factors include: pricing pressure and competition; ability to stimulate demand; compressed product life cycles; supply shortages; rising costs of components, manufacturing, and services content; product quality and warranty costs; shifts in product, geographic, currency, or channel mix; foreign exchange fluctuations; inflation and macroeconomic pressures; tariffs and trade restrictions; new lower-margin products or services; and dependence on a single product category."
+},
+  {
+  "id": "q03",
+  "question": "How did Apple's total net sales change in fiscal 2025 compared to fiscal 2024, and what were the main drivers?",
+  "type": "answerable",
+  "expected_items": ["7"],
+  "reference_answer": "Total net sales rose 6% to $416,161 million in fiscal 2025 from $391,035 million in fiscal 2024. Main drivers: Services up 14% (advertising, App Store, cloud services), iPhone up 4% (Pro models), and Mac up 12% (laptops and desktops). Wearables, Home and Accessories declined 4%. By region, all segments grew except Greater China, which fell 4% on lower iPhone sales."
+},
+ {
+  "id": "q04",
+  "question": "What are the potential effects of adverse macroeconomic conditions on Apple's business and results of operations?",
+  "type": "answerable",
+  "expected_items": ["1A"],
+  "reference_answer": "Adverse conditions (recession, unemployment, inflation, tighter credit, higher interest rates, currency fluctuations) can reduce consumer confidence and spending, lowering demand for Apple's products and services. They can also cause financial instability, credit problems, or insolvency among suppliers, manufacturers, logistics providers, carriers, and developers. Apple itself faces higher credit and collection risk on receivables, possible failure of derivative counterparties and financial institutions, limits on issuing debt, reduced liquidity, and declines in the fair value of its financial instruments."
+},
+  {
+  "id": "q05",
+  "question": "What are the principal competitive factors important to Apple in the markets for its products and services?",
+  "type": "answerable",
+  "expected_items": ["1"],
+  "reference_answer": "Apple lists: price; product and service features (including security); relative price and performance; product and service quality and reliability; design and technology innovation; a strong third-party software and accessories ecosystem; marketing and distribution capability; service and support; corporate reputation; and the ability to protect and enforce its intellectual property rights."
+},
+  {
+  "id": "q06",
+  "question": "What was Apple's net income for fiscal 2025?",
+  "type": "answerable",
+  "expected_items": ["8"],
+  "reference_answer": "Apple's net income for fiscal 2025 was $112,010 million (about $112.0 billion), up from $93,736 million in fiscal 2024."
+},
+  {
+  "id": "q07",
+  "question": "What was Apple's effective tax rate for fiscal 2025, and what factors affected it?",
+  "type": "answerable",
+  "expected_items": ["7", "8"],
+  "reference_answer": "Apple's effective tax rate was 15.6% in fiscal 2025, down from 24.1% in fiscal 2024. The decrease was due to a $10.7 billion year-over-year decrease in the provision for income taxes related to the State Aid Decision and the impact of changes in unrecognized tax benefits, partially offset by a change in valuation allowance and a higher effective tax rate on foreign earnings."
+},
+  {
+  "id": "q08",
+  "question": "What are Apple's reportable segments, and which segment had the largest dollar increase in net sales in fiscal 2025?",
+  "type": "answerable",
+  "expected_items": ["7", "8"],
+  "reference_answer": "Apple's reportable segments are Americas, Europe, Greater China, Japan, and Rest of Asia Pacific. The Americas had the largest dollar increase, up $11,308 million (7%) to $178,353 million. Greater China was the only segment to decline, down 4%."
+},
+  {
+    "id": "q09",
+    "question": "What is Apple's current stock price?",
+    "type": "unanswerable",
+    "expected_items": [],
+    "reference_answer": "The 10-K does not contain real-time stock price data — it is a periodic annual report, not a live market data source. Correct behavior is to decline, stating the information is not available in the provided context."
+  },
+  {
+    "id": "q10",
+    "question": "How many employees did Apple hire in China in the last quarter?",
+    "type": "unanswerable",
+    "expected_items": [],
+    "reference_answer": "The 10-K does not break down hiring by region or by quarter. Correct behavior is to decline, stating the information is not available in the provided context."
+  },
+  {
+  "id": "q11",
+  "question": "Who is Apple's Chief Executive Officer?",
+  "type": "answerable",
+  "expected_items": ["9A"],
+  "reference_answer": "Timothy D. Cook (Tim Cook) is Apple's Chief Executive Officer and a Director, per the signature page of the 10-K dated October 31, 2025."
+},
+{
+  "id": "q12",
+  "question": "Who is Apple's Chief Financial Officer?",
+  "type": "answerable",
+  "expected_items": ["9A"],
+  "reference_answer": "Kevan Parekh is Apple's Chief Financial Officer, per the signature page of the 10-K."
+}
+]
