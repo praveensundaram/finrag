@@ -212,7 +212,8 @@ normalized = loaded_vectors / norms
 
 
 # --- Smoke test ---
-question = "What are the risks from foreign exchange rates?"
-response = answer(question)
-console.print(Panel(question, title="Question", border_style="cyan"))
-console.print(Panel(Markdown(response), title="Answer", border_style="green"))
+if __name__ == "__main__":
+    question = "What are the risks from foreign exchange rates?"
+    response = answer(question)
+    console.print(Panel(question, title="Question", border_style="cyan"))
+    console.print(Panel(Markdown(response), title="Answer", border_style="green"))
