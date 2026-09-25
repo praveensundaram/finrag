@@ -82,5 +82,54 @@
   "type": "answerable",
   "expected_items": ["9A"],
   "reference_answer": "Kevan Parekh is Apple's Chief Financial Officer, per the signature page of the 10-K."
+},
+{
+  "id": "q13",
+  "question": "Who is responsible for managing cybersecurity risk at Apple, and which Board committee oversees it?",
+  "type": "answerable",
+  "expected_items": ["1C"],
+  "reference_answer": "Management, led by Apple's Head of Corporate Information Security (25+ years of cybersecurity experience, leading the Information Security team since 2016), has overall responsibility for managing cybersecurity risk. The Audit and Finance Committee of the Board oversees cybersecurity matters, regularly reviewing risks with management and reporting to the Board."
+},
+{
+  "id": "q14",
+  "question": "What is the name of Apple's Head of Corporate Information Security?",
+  "type": "unanswerable",
+  "expected_items": [],
+  "reference_answer": "The 10-K describes the Head of Corporate Information Security's experience and tenure but does not name the person. Correct behavior is to decline, stating the name is not in the provided context."
+},
+{
+  "id": "q15",
+  "question": "Where is Apple's headquarters located?",
+  "type": "answerable",
+  "expected_items": ["2"],
+  "reference_answer": "Apple's headquarters is located in Cupertino, California."
+},
+{
+  "id": "q16",
+  "question": "How much did the European Commission fine Apple under the Digital Markets Act, and what did it order Apple to do?",
+  "type": "answerable",
+  "expected_items": ["3"],
+  "reference_answer": "On April 23, 2025, the European Commission fined Apple €500 million in the Article 5(4) investigation and issued a cease and desist order requiring Apple to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store. Apple has appealed the decision."
+},
+{
+  "id": "q17",
+  "question": "What is the current status of Apple's appeal in the Epic Games case?",
+  "type": "answerable",
+  "expected_items": ["3"],
+  "reference_answer": "Apple appealed the California District Court's April 30, 2025 decision to the U.S. Court of Appeals for the Ninth Circuit. Apple's request to stay the decision pending appeal was denied, but the Ninth Circuit agreed to consider the appeal on an expedited basis, with oral arguments heard in October 2025."
+},
+{
+  "id": "q18",
+  "question": "What share repurchase programs has Apple announced, and how much repurchase capacity remained as of the end of fiscal 2025?",
+  "type": "answerable",
+  "expected_items": ["5"],
+  "reference_answer": "Apple announced a $110 billion repurchase program on May 2, 2024, and used its final $19.8 billion during the fourth quarter of fiscal 2025. On May 1, 2025, it announced an additional $100 billion program, of which $221 million had been used as of September 27, 2025, leaving approximately $99.8 billion ($99,779 million) available."
+},
+{
+  "id": "q19",
+  "question": "What revenue does Apple expect for fiscal 2026?",
+  "type": "unanswerable",
+  "expected_items": [],
+  "reference_answer": "The 10-K does not provide revenue guidance or a forecast for fiscal 2026. Correct behavior is to decline, stating the information is not in the provided context."
 }
 ]
