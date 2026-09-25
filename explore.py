@@ -138,7 +138,8 @@ def answer_with_context(question, k=5):
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
-    return message.content[0].text, context
+    text = next(block.text for block in message.content if block.type == "text")
+    return text, context
 
 
 def answer(question, k=5):
