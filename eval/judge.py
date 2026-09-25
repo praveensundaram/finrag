@@ -72,8 +72,7 @@ def judge(question, qtype, reference, system_answer, context):
         system=JUDGE_SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
-
-        if client_response.stop_reason == "max_tokens":
+    if client_response.stop_reason == "max_tokens":
         return {"verdict": "ERROR", "reason": "Judge output truncated (hit max_tokens)",
                 "faithful": None, "unsupported_claims": []}
 
