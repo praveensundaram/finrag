@@ -1,0 +1,173 @@
+[
+  {
+    "id": "q01",
+    "type": "answerable",
+    "question": "What is Apple's primary exposure to foreign exchange rate risk, and what is its estimated maximum one-day loss from foreign currency derivative positions?",
+    "reference_answer": "Apple is primarily a net receiver of currencies other than the U.S. dollar, so its FX exposure relates mainly to non-U.S.-dollar-denominated sales, costs, and operating expenses; a strengthening dollar pressures the dollar value of foreign sales and gross margins. Using a Value-at-Risk model at 95% confidence, Apple estimated a maximum one-day loss in fair value of its foreign currency derivative positions of $590 million as of September 27, 2025 (versus $538 million the prior year).",
+    "system_answer": "Apple's primary exposure to foreign exchange rate risk relates to it being a net receiver of currencies other than the U.S. dollar, primarily tied to non\u2013U.S. dollar\u2013denominated sales, cost of sales, and operating expenses worldwide (Source 1, Item 7A; Source 2, Item 1A). A strengthening of the U.S. dollar negatively affects the Company's net sales and gross margins when expressed in U.S. dollars, and can also affect the fair values of certain assets and liabilities (Source 1, Item 7A).\n\nUsing a Value-at-Risk (VAR) model based on a Monte Carlo simulation, Apple estimates, with 95% confidence, a maximum one-day loss in fair value of its foreign currency derivative positions of **$590 million** as of September 27, 2025 (compared to $538 million as of September 28, 2024) (Source 1, Item 7A).",
+    "verdict": "CORRECT",
+    "reason": "Matches reference on FX exposure description and correctly states $590 million maximum one-day loss with prior year comparison."
+  },
+  {
+    "id": "q02",
+    "type": "answerable",
+    "question": "What factors can impact Apple's future gross margins?",
+    "reference_answer": "Apple states gross margins are subject to volatility and downward pressure. Factors include: pricing pressure and competition; ability to stimulate demand; compressed product life cycles; supply shortages; rising costs of components, manufacturing, and services content; product quality and warranty costs; shifts in product, geographic, currency, or channel mix; foreign exchange fluctuations; inflation and macroeconomic pressures; tariffs and trade restrictions; new lower-margin products or services; and dependence on a single product category.",
+    "system_answer": "Based on the filing, Apple identifies several factors that can affect its future gross margins:\n\n- **Pricing and competitive pressures**: Industry-wide global product pricing pressures, potential pricing actions Apple may take in response, and increased competition characterized by aggressive price competition and downward pressure on gross margins (Source 1, Item 1A; Source 3, Item 1).\n\n- **Demand and product mix**: Apple's ability to effectively stimulate demand for certain products and services, compressed product life cycles, and shifts in the mix of products and services, or in geographic, currency, or channel mix\u2014including changes required by regulatory shifts (Source 1, Item 1A).\n\n- **Supply and cost factors**: Supply shortages, potential increases in the cost of components and outside manufacturing services, and costs of developing, acquiring, and delivering content for services (Source 1, Item 1A; Source 4, Item 1A).\n\n- **Product quality**: Apple's ability to manage product quality and warranty costs effectively, as well as design and manufacturing defects that could harm the business and reputation (Source 1, Item 1A; Source 4, Item 1A).\n\n- **Foreign exchange rate fluctuations**: Gross margins on products sold in foreign countries and on products with foreign-sourced components can be adversely affected by currency movements. A weakening of foreign currencies relative to the U.S. dollar reduces the dollar value of foreign sales/earnings and may force Apple to raise international pricing (potentially reducing demand) or absorb the impact if it chooses not to raise prices. Conversely, a strengthening of foreign currencies could increase the cost of foreign-currency-denominated components, and hedging activities (e.g., forward and option contracts) may not fully offset these effects (Source 1, Item 1A; Source 2, Item 1A).\n\n- **Macroeconomic conditions**: Inflation and other macroeconomic pressures, as well as broader adverse conditions such as slow growth, recession, high unemployment, tighter credit, and higher interest rates, which can affect consumer demand and spending (Source 1, Item 1A; Source 5, Item 1A).\n\n- **Trade policy**: The imposition of new or increased tariffs and other trade restrictions, their magnitude and duration, and retaliatory actions in response (Source 1, Item 1A).\n\n- **New product/service introductions**: Introduction of new products or services, including those with lower profit margins (Source 1, Item 1A).\n\n- **Product concentration risk**: Apple generates a significant portion of its net sales from a single product category, so a decline in demand for that category could significantly impact both net sales and gross margins (Source 1, Item 1A).",
+    "verdict": "CORRECT",
+    "reason": "Covers all key factors from the reference including pricing, demand, supply/cost, quality, FX, macroeconomic, tariffs, new lower-margin products, and single product concentration."
+  },
+  {
+    "id": "q03",
+    "type": "answerable",
+    "question": "How did Apple's total net sales change in fiscal 2025 compared to fiscal 2024, and what were the main drivers?",
+    "reference_answer": "Total net sales rose 6% to $416,161 million in fiscal 2025 from $391,035 million in fiscal 2024. Main drivers: Services up 14% (advertising, App Store, cloud services), iPhone up 4% (Pro models), and Mac up 12% (laptops and desktops). Wearables, Home and Accessories declined 4%. By region, all segments grew except Greater China, which fell 4% on lower iPhone sales.",
+    "system_answer": "## Total Net Sales Change: FY2025 vs FY2024\n\nApple's total net sales increased **6%**, from **$391,035 million in 2024** to **$416,161 million in 2025** (Source 1, Item 7; Source 5, Item 8).\n\n## Main Drivers\n\n**By Category:**\n- **Services** grew 14% (from $96,169M to $109,158M), driven by higher net sales from **advertising, the App Store, and cloud services** (Source 1, Item 7; Source 2, Item 7)\n- **Mac** grew 12% (from $29,984M to $33,708M), due to higher net sales of **laptops and desktops** (Source 2, Item 7)\n- **iPhone** grew 4% (from $201,183M to $209,586M), due to higher net sales of **Pro models** (Source 1, Item 7)\n- **iPad** grew 5% (from $26,694M to $28,023M), driven by **iPad Air, iPad mini, and iPad**, partially offset by lower iPad Pro sales (Source 2, Item 7)\n- **Wearables, Home and Accessories** declined 4% (from $37,005M to $35,686M), due to lower **Accessories and Wearables** sales (Source 2, Item 7)\n\n**By Geographic Segment:**\n- **Americas** grew 7%, led by higher iPhone and Services sales, though unfavorable foreign currency movements partially offset growth (Source 1, Item 7)\n- **Europe** grew 10%, driven by higher Services, iPhone, and Mac sales (Source 1, Item 7)\n- **Japan** grew 15%, due to higher iPhone, Services, and iPad sales (Source 1, Item 7)\n- **Rest of Asia Pacific** grew 10%, driven by higher iPhone, Services, and Mac sales (Source 1, Item 7)\n- **Greater China** was the only segment to decline, falling 4%, primarily due to **lower iPhone sales**, partially offset by higher Mac sales (Source 1, Item 7)\n\n**Summary:** Growth was broad-based across most product categories and geographies, with **Services and Mac showing the strongest percentage growth**, and iPhone contributing the largest dollar increase. Greater China was the sole region with declining sales, driven by weaker iPhone demand there (Source 1, Item 7).",
+    "verdict": "CORRECT",
+    "reason": "Matches all key figures and drivers from the reference, with accurate additional detail on iPad and regional segments."
+  },
+  {
+    "id": "q04",
+    "type": "answerable",
+    "question": "What are the potential effects of adverse macroeconomic conditions on Apple's business and results of operations?",
+    "reference_answer": "Adverse conditions (recession, unemployment, inflation, tighter credit, higher interest rates, currency fluctuations) can reduce consumer confidence and spending, lowering demand for Apple's products and services. They can also cause financial instability, credit problems, or insolvency among suppliers, manufacturers, logistics providers, carriers, and developers. Apple itself faces higher credit and collection risk on receivables, possible failure of derivative counterparties and financial institutions, limits on issuing debt, reduced liquidity, and declines in the fair value of its financial instruments.",
+    "system_answer": "Based on the filing, adverse macroeconomic conditions\u2014including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations\u2014can affect Apple's business and results of operations in several ways:\n\n**Direct impacts on demand:**\n- Adversely impact consumer confidence and spending, materially affecting demand for Apple's products and services (Source 1, Item 1A)\n- Consumer confidence and spending can also be hurt by changes in fiscal and monetary policy, financial market volatility, and declines in income or asset values (Source 1, Item 1A)\n\n**Impacts on the supply chain and partners:**\n- Uncertainty or decline in global/regional economic conditions can significantly affect Apple's suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers, and other channel partners and developers, potentially leading to financial instability, inability to obtain credit to finance operations, and insolvency (Source 1, Item 1A)\n\n**Financial and credit-related impacts:**\n- Increased credit and collectibility risk on Apple's trade receivables (Source 1, Item 1A)\n- Risk of failure of derivative counterparties and other financial institutions (Source 1, Item 1A)\n- Limitations on Apple's ability to issue new debt (Source 1, Item 1A)\n- Reduced liquidity (Source 1, Item 1A)\n- Declines in the fair values of Apple's financial instruments (Source 1, Item 1A)\n\n**Broader business dependency:**\n- Apple's operations and performance depend significantly on global and regional economic conditions, given that a majority of its total net sales come from international markets and a majority of its supplier facilities (including manufacturing and assembly sites) are located outside the U.S. (Source 5, Item 1A)\n- The filing also notes that macroeconomic conditions such as inflation, interest rates, and currency fluctuations have directly and indirectly impacted, and could continue to materially impact, Apple's results of operations and financial condition (Source 2, Item 7)\n\nCollectively, the filing states these factors \"can materially adversely affect the Company's business, results of operations, financial condition and stock price\" (Source 1, Item 1A).",
+    "verdict": "CORRECT",
+    "reason": "Covers all key points from the reference: reduced consumer demand, supplier/partner financial instability, credit/collectibility risk, derivative counterparty/financial institution risk, debt issuance limits, reduced liquidity, and financial instrument fair value declines."
+  },
+  {
+    "id": "q05",
+    "type": "answerable",
+    "question": "What are the principal competitive factors important to Apple in the markets for its products and services?",
+    "reference_answer": "Apple lists: price; product and service features (including security); relative price and performance; product and service quality and reliability; design and technology innovation; a strong third-party software and accessories ecosystem; marketing and distribution capability; service and support; corporate reputation; and the ability to protect and enforce its intellectual property rights.",
+    "system_answer": "Based on the filing, Apple identifies the following principal competitive factors important to the company in the markets for its products and services:\n\n- **Price** (Source 1, Item 1)\n- **Product and service features**, including security features (Source 1, Item 1)\n- **Relative price and performance** (Source 1, Item 1)\n- **Product and service quality and reliability** (Source 1, Item 1)\n- **Design and technology innovation** (Source 1, Item 1)\n- **A strong third-party software and accessories ecosystem** (Source 1, Item 1)\n- **Marketing and distribution capability** (Source 1, Item 1)\n- **Service and support** (Source 1, Item 1)\n- **Corporate reputation** (Source 1, Item 1)\n- **The ability to effectively protect and enforce the Company's intellectual property rights** (Source 1, Item 1)\n\nApple notes that its ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services, and technologies, given that it designs and develops nearly the entire solution for its products\u2014including hardware, operating system, software applications, and related services (Source 1, Item 1; Source 2, Item 1A).",
+    "verdict": "CORRECT",
+    "reason": "Matches all key competitive factors listed in the reference with no inaccuracies."
+  },
+  {
+    "id": "q06",
+    "type": "answerable",
+    "question": "What was Apple's net income for fiscal 2025?",
+    "reference_answer": "Apple's net income for fiscal 2025 was $112,010 million (about $112.0 billion), up from $93,736 million in fiscal 2024.",
+    "system_answer": "Apple's net income for fiscal 2025 was **$112,010 million** (approximately $112.0 billion), compared to $93,736 million in fiscal 2024 and $96,995 million in fiscal 2023 (Source 1, Item 8).",
+    "verdict": "CORRECT",
+    "reason": "Matches the reference figure of $112,010 million and includes accurate prior year comparison."
+  },
+  {
+    "id": "q07",
+    "type": "answerable",
+    "question": "What was Apple's effective tax rate for fiscal 2025, and what factors affected it?",
+    "reference_answer": "Apple's effective tax rate was 15.6% in fiscal 2025, down from 24.1% in fiscal 2024. The decrease was due to a $10.7 billion year-over-year decrease in the provision for income taxes related to the State Aid Decision and the impact of changes in unrecognized tax benefits, partially offset by a change in valuation allowance and a higher effective tax rate on foreign earnings.",
+    "system_answer": "**Effective tax rate for fiscal 2025: 15.6%** (Source 1, Item 8; Source 3, Item 7)\n\nThis compares to a statutory federal income tax rate of 21% (Source 3, Item 7).\n\n**Factors affecting the rate:**\n\n1. **Lower effective tax rate on foreign earnings** \u2014 a key driver of the rate being below the statutory rate, reflecting the reconciling item \"Earnings of foreign subsidiaries\" of $(8,120) million (Source 1, Item 8; Source 3, Item 7).\n\n2. **Decrease in provision related to the State Aid Decision** \u2014 the effective tax rate for 2025 was lower compared to 2024 due to a **$10.7 billion year-over-year decrease** in the provision for income taxes tied to the State Aid Decision. This reconciling item was $(486) million in 2025 versus a $10,246 million increase in 2024 (Source 1, Item 8; Source 5, Item 7).\n\n3. **Impact of changes in unrecognized tax benefits** \u2014 contributed to lowering the rate versus 2024 (Source 3 and Source 5, Item 7).\n\n4. **U.S. federal R&D credit** \u2014 the research and development credit reduced taxes by $1,049 million in 2025 (Source 1, Item 8; Source 3, Item 7).\n\n5. **Tax benefits from share-based compensation** \u2014 cited as contributing to the lower rate versus the statutory rate (Source 3, Item 7).\n\n6. **Partially offsetting (increasing) factors:**\n   - **Change in valuation allowance**, which added $2,091 million to the tax provision in 2025 (versus $0 in 2024) (Source 1, Item 8; Source 3 and Source 5, Item 7).\n   - **State income taxes** and a **higher effective tax rate on foreign earnings** (relative to 2024) also partially offset the reductions (Source 3 and Source 5, Item 7).\n\nIn short, Apple's 15.6% effective tax rate in 2025 was well below the 21% statutory rate mainly due to favorable foreign earnings taxation, R&D credits, and a large swing in State Aid Decision\u2013related charges (down $10.7B year-over-year), partly offset by a new valuation allowance charge and state taxes.",
+    "verdict": "CORRECT",
+    "reason": "Correctly states 15.6% rate and covers the key drivers (State Aid Decision decrease, unrecognized tax benefits, valuation allowance, foreign earnings rate), matching the reference with additional accurate detail."
+  },
+  {
+    "id": "q08",
+    "type": "answerable",
+    "question": "What are Apple's reportable segments, and which segment had the largest dollar increase in net sales in fiscal 2025?",
+    "reference_answer": "Apple's reportable segments are Americas, Europe, Greater China, Japan, and Rest of Asia Pacific. The Americas had the largest dollar increase, up $11,308 million (7%) to $178,353 million. Greater China was the only segment to decline, down 4%.",
+    "system_answer": "Apple's reportable segments are Americas, Europe, Greater China, Japan, and Rest of Asia Pacific (Source 1, Item 7).\n\nIn fiscal 2025, **Americas** had the largest dollar increase in net sales, rising from $167,045 million in 2024 to $178,353 million in 2025 \u2014 an increase of $11,308 million (7%), driven primarily by higher net sales of iPhone and Services (Source 1, Item 7).\n\nBy comparison:\n- Europe increased by $9,704 million (10%), from $101,328 million to $111,032 million\n- Japan increased by $3,651 million (15%)\n- Rest of Asia Pacific increased by $3,038 million (10%)\n- Greater China decreased by $2,575 million (-4%)\n\n(Source 1, Item 7)",
+    "verdict": "CORRECT",
+    "reason": "Correctly lists segments and identifies Americas as largest dollar increase with matching figures, plus consistent detail on Greater China decline."
+  },
+  {
+    "id": "q09",
+    "type": "unanswerable",
+    "question": "What is Apple's current stock price?",
+    "reference_answer": "The 10-K does not contain real-time stock price data \u2014 it is a periodic annual report, not a live market data source. Correct behavior is to decline, stating the information is not available in the provided context.",
+    "system_answer": "The context provided does not contain information about Apple's current stock price. This 10-K filing includes financial statements, earnings data, and corporate governance information, but does not report real-time or current market stock prices.",
+    "verdict": "CORRECT",
+    "reason": "The system correctly declines to provide a stock price, stating it's not available in the 10-K, without offering any specific figure."
+  },
+  {
+    "id": "q10",
+    "type": "unanswerable",
+    "question": "How many employees did Apple hire in China in the last quarter?",
+    "reference_answer": "The 10-K does not break down hiring by region or by quarter. Correct behavior is to decline, stating the information is not available in the provided context.",
+    "system_answer": "The provided context does not contain any information about the number of employees Apple hired in China in the last quarter. This data is not available in the excerpts from the 10-K filing.",
+    "verdict": "CORRECT",
+    "reason": "Declines to answer without providing any specific figure, consistent with reference."
+  },
+  {
+    "id": "q11",
+    "type": "answerable",
+    "question": "Who is Apple's Chief Executive Officer?",
+    "reference_answer": "Timothy D. Cook (Tim Cook) is Apple's Chief Executive Officer and a Director, per the signature page of the 10-K dated October 31, 2025.",
+    "system_answer": "According to the filing, Timothy D. Cook is Apple's Chief Executive Officer (and Director), serving as Principal Executive Officer (Source 1, Item 9A).",
+    "verdict": "CORRECT",
+    "reason": "Correctly identifies Timothy D. Cook as CEO and Director, matching the reference."
+  },
+  {
+    "id": "q12",
+    "type": "answerable",
+    "question": "Who is Apple's Chief Financial Officer?",
+    "reference_answer": "Kevan Parekh is Apple's Chief Financial Officer, per the signature page of the 10-K.",
+    "system_answer": "Apple's Chief Financial Officer is Kevan Parekh, who holds the title of Senior Vice President, Chief Financial Officer (Principal Financial Officer) (Source 2, Item 9A; Source 3, Item 9A).",
+    "verdict": "CORRECT",
+    "reason": "Correctly identifies Kevan Parekh as CFO, matching the reference."
+  },
+  {
+    "id": "q13",
+    "type": "answerable",
+    "question": "Who is responsible for managing cybersecurity risk at Apple, and which Board committee oversees it?",
+    "reference_answer": "Management, led by Apple's Head of Corporate Information Security (25+ years of cybersecurity experience, leading the Information Security team since 2016), has overall responsibility for managing cybersecurity risk. The Audit and Finance Committee of the Board oversees cybersecurity matters, regularly reviewing risks with management and reporting to the Board.",
+    "system_answer": "Apple's cybersecurity risk management is led by the Company's **Head of Corporate Information Security**, who has overall responsibility for identifying, assessing, and managing material risks from cybersecurity threats (Source 2, Item 1C). This individual brings over 25 years of cybersecurity industry experience, including prior leadership roles at other large technology companies, and has led Apple's Information Security team since 2016 (Source 2, Item 1C).\n\nThe Head of Corporate Information Security leads a dedicated **Information Security team** that develops security policies and procedures, conducts employee training, implements security controls, assesses risk and compliance, monitors and responds to security events, and performs security testing (Source 2, Item 1C). This team coordinates across the company and engages third parties as needed for incident response, while a separate **Supplier Trust team** manages information security risks arising from supplier relationships (Source 2, Item 1C). Cybersecurity risk is also incorporated into the Company's broader enterprise risk management program (Source 2, Item 1C).\n\nBoard oversight of cybersecurity is handled by the **Audit and Finance Committee (\"Audit Committee\")** of the Board (Source 1, Item 1C; Source 2, Item 1C). The Audit Committee regularly reviews and discusses cybersecurity risks with management\u2014including the Head of Corporate Information Security, General Counsel, and the Heads of Compliance and Business Conduct, Business Assurance, and Internal Audit\u2014and receives updates on cybersecurity incidents as necessary (Source 1, Item 1C). The Chair of the Audit Committee then reports the substance of these discussions to the full Board and recommends any appropriate actions (Source 1, Item 1C).",
+    "verdict": "CORRECT",
+    "reason": "Matches reference facts on Head of Corporate Information Security and Audit and Finance Committee oversight, with accurate extra detail."
+  },
+  {
+    "id": "q14",
+    "type": "unanswerable",
+    "question": "What is the name of Apple's Head of Corporate Information Security?",
+    "reference_answer": "The 10-K describes the Head of Corporate Information Security's experience and tenure but does not name the person. Correct behavior is to decline, stating the name is not in the provided context.",
+    "system_answer": "The provided context does not disclose the name of Apple's Head of Corporate Information Security. It only notes that this individual has led the Company's Information Security team since 2016 and has over 25 years of experience in the cybersecurity industry, including prior leadership positions at other large technology companies (Source 1, Item 1C).",
+    "verdict": "CORRECT",
+    "reason": "Correctly declines to provide a name and only shares background details already known from the filing without guessing a name."
+  },
+  {
+    "id": "q15",
+    "type": "answerable",
+    "question": "Where is Apple's headquarters located?",
+    "reference_answer": "Apple's headquarters is located in Cupertino, California.",
+    "system_answer": "Apple's headquarters is located in Cupertino, California (Source 1, Item 2).",
+    "verdict": "CORRECT",
+    "reason": "Matches the reference location exactly."
+  },
+  {
+    "id": "q16",
+    "type": "answerable",
+    "question": "How much did the European Commission fine Apple under the Digital Markets Act, and what did it order Apple to do?",
+    "reference_answer": "On April 23, 2025, the European Commission fined Apple \u20ac500 million in the Article 5(4) investigation and issued a cease and desist order requiring Apple to remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store. Apple has appealed the decision.",
+    "system_answer": "Under the EU Digital Markets Act, on April 23, 2025, the European Commission fined Apple **\u20ac500 million** in connection with the Article 5(4) Investigation. It also issued a **cease and desist order** requiring Apple to **remove technical and commercial restrictions that prevent developers from steering users to alternative distribution channels outside the App Store** (Source 1, Item 3).\n\nApple has appealed the Commission's Article 5(4) decision (Source 1, Item 3).",
+    "verdict": "CORRECT",
+    "reason": "Matches all key facts: \u20ac500 million fine, cease and desist order details, and mention of Apple's appeal."
+  },
+  {
+    "id": "q17",
+    "type": "answerable",
+    "question": "What is the current status of Apple's appeal in the Epic Games case?",
+    "reference_answer": "Apple appealed the California District Court's April 30, 2025 decision to the U.S. Court of Appeals for the Ninth Circuit. Apple's request to stay the decision pending appeal was denied, but the Ninth Circuit agreed to consider the appeal on an expedited basis, with oral arguments heard in October 2025.",
+    "system_answer": "Based on the context provided, Apple has appealed the California District Court's April 30, 2025 decision to the U.S. Court of Appeals for the Ninth Circuit (Source 1, Item 3). This appeal followed the court's ruling that Apple was in violation of the 2021 Injunction, its denial of Apple's motion to narrow or vacate the injunction, and its referral of Apple to the U.S. Attorney for the Northern District of California for a determination on whether criminal contempt proceedings are appropriate (Source 1, Item 3).\n\nThe context does not provide any further details on the outcome or current status of the Ninth Circuit appeal itself. Apple states it \"will continue to vigorously defend its actions and employees\" (Source 1, Item 3).",
+    "verdict": "PARTIAL",
+    "reason": "Correctly notes the appeal to the Ninth Circuit but fails to mention the denial of the stay and the expedited schedule with October 2025 oral arguments, key facts from the reference."
+  },
+  {
+    "id": "q18",
+    "type": "answerable",
+    "question": "What share repurchase programs has Apple announced, and how much repurchase capacity remained as of the end of fiscal 2025?",
+    "reference_answer": "Apple announced a $110 billion repurchase program on May 2, 2024, and used its final $19.8 billion during the fourth quarter of fiscal 2025. On May 1, 2025, it announced an additional $100 billion program, of which $221 million had been used as of September 27, 2025, leaving approximately $99.8 billion ($99,779 million) available.",
+    "system_answer": "Based on the filing, Apple has had two recent share repurchase programs:\n\n1. **May 2024 program**: Announced on May 2, 2024, authorizing repurchases of up to $110 billion of common stock. This program was fully utilized during the fourth quarter of fiscal 2025, with the final $19.8 billion used at that time (Source 2, Item 5).\n\n2. **May 2025 program**: Announced on May 1, 2025, authorizing an additional $100 billion in repurchases. As of September 27, 2025 (fiscal year-end), only $221 million of this program had been utilized (Source 2, Item 5; Source 3, Item 7).\n\n**Remaining capacity as of fiscal year-end 2025**: The approximate dollar value of shares that may yet be purchased under the plans/programs was **$99,779 million (~$99.8 billion)** as of September 27, 2025 (Source 2, Item 5). This reflects the remaining balance under the $100 billion May 2025 program, since the prior $110 billion program had been fully exhausted.\n\nAdditionally, during fiscal 2025, Apple repurchased $89.3 billion of common stock (402 million shares) overall (Source 3, Item 7; Source 4, Item 8), and also raised its quarterly dividend from $0.25 to $0.26 per share beginning in May 2025 (Source 3, Item 7).",
+    "verdict": "CORRECT",
+    "reason": "Accurately captures both programs, amounts used, and remaining capacity of $99,779 million, matching the reference; extra details do not contradict it."
+  },
+  {
+    "id": "q19",
+    "type": "unanswerable",
+    "question": "What revenue does Apple expect for fiscal 2026?",
+    "reference_answer": "The 10-K does not provide revenue guidance or a forecast for fiscal 2026. Correct behavior is to decline, stating the information is not in the provided context.",
+    "system_answer": "The provided context does not contain any forward-looking revenue guidance or projections for fiscal 2026. The available sources only cover historical results for fiscal years 2023, 2024, and 2025 (e.g., total net sales of $416,161 million in fiscal 2025, up from $391,035 million in fiscal 2024 and $383,285 million in fiscal 2023) (Source 3, Item 8), along with product/service announcements made during fiscal 2025 (Source 1, Item 7). There is no statement regarding expected revenue for fiscal 2026.",
+    "verdict": "PARTIAL",
+    "reason": "Correctly declines to provide FY2026 guidance, but includes specific historical revenue figures alongside the refusal, which counts as speculation/extra figures per grading rules."
+  }
+]

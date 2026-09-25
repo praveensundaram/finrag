@@ -125,7 +125,9 @@ Answer the user's question using ONLY the context provided below the question. F
 - Be concise and factual."""
 
 
-def answer(question, k=5):
+def answer_with_context(question, k=5):
+    """Like answer(), but also returns the context string the model saw.
+    Returns a tuple: (answer_text, context)."""
     """Retrieve relevant chunks and have Claude write a grounded, cited answer."""
     results = search(question, k)
     context = format_context(results)
@@ -136,7 +138,12 @@ def answer(question, k=5):
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": user_message}],
     )
-    return message.content[0].text
+    return message.content[0].text, context
+
+
+def answer(question, k=5):
+    """Retrieve relevant chunks and have Claude write a grounded, cited answer."""
+    return answer_with_context(question, k)[0]
 
 
 # --- BUILD (only if the saved corpus doesn't exist yet) ---
