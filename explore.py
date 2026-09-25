@@ -26,6 +26,7 @@ EMBED_MODEL  = "voyage-finance-2"
 BATCH_SIZE   = 100      # chunks per embedding API call
 CHUNK_TARGET = 2000     # aim for ~2000 chars/chunk (~400-500 words); tune later against eval
 CHUNK_MIN    = 200      # drop chunks smaller than this (kills the "None." noise)
+CHUNK_OVERLAP = 300     # chars copied from the end of the previous chunk
 
 OUT_DIR      = "data/processed"
 os.makedirs(OUT_DIR, exist_ok=True)
@@ -73,6 +74,18 @@ def split_paragraph(para, target):
     sentences = re.split(r"(?<=[.!?])\s+", para)
     return pack(sentences, target)
 
+def add_overlap(chunks, overlap=CHUNK_OVERLAP):
+    """Prefix each chunk (after the first) with the tail of the chunk before it,
+    so text split across a boundary keeps its context."""
+    result = []
+    for i, chunk in enumerate(chunks):
+        if i == 0:
+            result.append(chunk)
+        else:
+            tail = chunks[i - 1][-overlap:]
+            tail = tail[tail.find(" ") + 1:]   # start at a word boundary
+            result.append(tail + "\n" + chunk)
+    return result
 
 def chunk_section(section_text):
     """Split one section into ~CHUNK_TARGET chunks. Oversized paragraphs are broken on
@@ -85,7 +98,8 @@ def chunk_section(section_text):
         else:
             units.append(para)
     chunks = pack(units, CHUNK_TARGET)
-    return [c for c in chunks if len(c) >= CHUNK_MIN]
+    kept = [c for c in chunks if len(c) >= CHUNK_MIN]
+    return add_overlap(kept)
 
 
 # --- Retrieval ---
