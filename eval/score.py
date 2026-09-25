@@ -4,6 +4,7 @@ import json
 from explore import answer_with_context
 from eval.judge import judge, VERDICT_SCORES
 from eval.recall import load_golden, GOLDEN_PATH
+from eval.history import log_run
 
 RESULTS_PATH = "eval/results.json"
 
@@ -65,6 +66,14 @@ def main():
     print(f"\nErrors: {len(errors)} question(s) failed to be judged.")
     if errors:
         print(f"  ids: {', '.join(errors)}")
+    
+    log_run("answers", {
+    "answerable": round(sum(scores["answerable"]) / len(scores["answerable"]), 4) if scores["answerable"] else 0.0,
+    "unanswerable": round(sum(scores["unanswerable"]) / len(scores["unanswerable"]), 4) if scores["unanswerable"] else 0.0,
+    "faithful": judged - len(unfaithful),
+    "judged": judged,
+    "errors": len(errors),
+    })
 
     with open(RESULTS_PATH, "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2)

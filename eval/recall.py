@@ -2,6 +2,7 @@
 # at least one chunk from an expected Item?
 import json
 from explore import search
+from eval.history import log_run
 
 GOLDEN_PATH = "eval/golden_set.json"
 K = 5
@@ -46,6 +47,7 @@ def main():
     mrr = rr_total / len(answerable) if answerable else 0
     print(f"\nrecall@{K}: {recall:.2f} ({hits}/{len(answerable)})")
     print(f"mean reciprocal rank@{K}: {mrr:.2f}")
+    log_run("retrieval", {"recall@5": round(recall, 4), "mrr": round(mrr, 4)})
 
 
 if __name__ == "__main__":
