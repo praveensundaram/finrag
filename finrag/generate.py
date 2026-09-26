@@ -9,7 +9,12 @@ Answer the user's question using ONLY the context provided below the question. F
 
 - Base your answer only on the provided context. Do not use outside knowledge about Apple.
 - Cite the source for each claim using its label, e.g. (Source 1, Item 1A).
-- If the context does not contain enough information to answer, say so plainly rather than guessing.
+- Only state figures that appear in the context, or that you calculate directly from
+  figures in the context when the question requires it (for example, the difference
+  between two reported amounts). When you calculate, say which figures you used.
+- Do not estimate or infer figures that depend on assumptions the context does not state.
+- If the exact information asked for is not in the context, say so plainly. Do not offer
+  a related or substitute figure in its place.
 - Be concise and factual."""
 
 

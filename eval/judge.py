@@ -28,14 +28,13 @@ If the question type is "answerable":
   INCORRECT for an answerable question, even if it does not guess.
 
 If the question type is "unanswerable":
-- CORRECT: the answer clearly says the information is not available in the filing
-  and does not guess.
-- PARTIAL: the answer says the information is not available, but also speculates
-  or presents a related figure as if it might be the answer.
-- Any specific figure, name, or estimate mentioned alongside the refusal counts as
-  PARTIAL, even if it is labeled as something other than the requested answer
-  (for example, a historical buyback price mentioned in reply to a question about
-  the current stock price). A CORRECT answer declines without offering such figures.
+- CORRECT: the answer clearly says the requested information is not available in the
+  filing. It may mention a related figure that the filing does report, as long as the
+  answer clearly labels it as a different metric from the one asked for (for example,
+  "unit sales are not reported; iPhone net sales were $209.6 billion").
+- PARTIAL: the answer says the information is not available, but also offers an
+  estimate, approximation, or calculation of the requested figure, or presents a
+  related figure as if it could stand in for the answer.
 - INCORRECT: the answer provides an answer (for example a price, a name, or a number)
   instead of declining.
 
@@ -99,6 +98,67 @@ def judge(question, qtype, reference, system_answer, context):
 
 
 if __name__ == "__main__":
+    # Each case: (label, question, type, reference, context, answer, expected)
+    # "expected" lists what must hold: a verdict, and/or a faithful value.
+
+    # --- Shared setup for the stock-price (unanswerable) cases ---
+    q_price = "What is Apple's current stock price?"
+    ref_price = ("The 10-K does not contain real-time stock price data. Correct behavior "
+                 "is to decline, stating the information is not available.")
+    ctx_price = ("[Source 1 — Item 5]\nShare repurchase activity... August 31, 2025 to "
+                 "September 27, 2025: 27,247 shares at an average price of $238.56.")
+
+    cases = [
+        # Unanswerable: clean refusal
+        ("clean refusal", q_price, "unanswerable", ref_price, ctx_price,
+         "The filing does not contain Apple's current stock price.",
+         {"verdict": "CORRECT"}),
+
+        # Unanswerable: refusal + clearly labeled related figure (allowed under the new policy)
+        ("labeled related figure", q_price, "unanswerable", ref_price, ctx_price,
+         "The filing does not give a current stock price. For reference, Apple repurchased "
+         "shares at an average price of $238.56 in September 2025, which is a historical "
+         "buyback price, not the current price.",
+         {"verdict": "CORRECT"}),
+
+        # Unanswerable: refusal + estimate of the requested figure (still penalized)
+        ("estimate", q_price, "unanswerable", ref_price, ctx_price,
+         "The filing does not state the current stock price, but based on recent buyback "
+         "prices it is probably around $240.",
+         {"verdict": "PARTIAL"}),
+
+        # Unanswerable: gives a number as the answer
+        ("answers instead of declining", q_price, "unanswerable", ref_price, ctx_price,
+         "Apple's current stock price is $238.56.",
+         {"verdict": "INCORRECT"}),
+
+        # Faithfulness: the q03 mistake (wrong comparison not stated in the context)
+        ("unsupported comparison", "How did Apple's sales change?", "answerable",
+         "Services grew 14% and iPhone grew 4%.",
+         "[Source 1 — Item 7]\niPhone $209,586 (2025) vs $201,183 (2024). "
+         "Services $109,158 (2025) vs $96,169 (2024).",
+         "Services grew 14% and iPhone grew 4%, with iPhone contributing the largest dollar increase.",
+         {"faithful": False}),
+
+        # Answerable question, but the system refuses: must be INCORRECT
+        ("refusal on answerable", "Who is Apple's Chief Financial Officer?", "answerable",
+         "Kevan Parekh is Apple's Chief Financial Officer.",
+         "[Source 1 — Item 16]\n| /s/ Kevan Parekh | Senior Vice President, Chief Financial Officer |",
+         "The provided context does not name Apple's Chief Financial Officer.",
+         {"verdict": "INCORRECT"}),
+    ]
+
+    failures = 0
+    for label, question, qtype, ref, ctx, answer, expected in cases:
+        result = judge(question, qtype, ref, answer, ctx)
+        ok = all(result.get(key) == value for key, value in expected.items())
+        failures += 0 if ok else 1
+        print(f"{'PASS' if ok else 'FAIL'}  {label:30} expected {expected}  "
+              f"got verdict={result.get('verdict')} faithful={result.get('faithful')}")
+        if not ok:
+            print(f"      reason: {result.get('reason')}")
+
+    print(f"\n{len(cases) - failures}/{len(cases)} judge checks passed")
     # --- Refusal tests (same as before, now with a context) ---
     ref = ("The 10-K does not contain real-time stock price data. Correct behavior "
            "is to decline, stating the information is not available.")
