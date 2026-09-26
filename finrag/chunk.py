@@ -10,7 +10,7 @@ def pack(pieces, target, min_size=CHUNK_MIN):
     chunks = []
     current = ""
     for piece in pieces:
-        if current and len(current) + len(piece) > target:
+        if current and len(current) + 1 + len(piece) > target:
             chunks.append(current)
             current = piece
         else:
