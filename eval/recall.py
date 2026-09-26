@@ -1,7 +1,7 @@
 # recall@k: for each answerable question, did retrieval return
 # at least one chunk from an expected Item?
 import json
-from explore import search
+from finrag.retrieve import search
 from eval.history import log_run
 
 GOLDEN_PATH = "eval/golden_set.json"

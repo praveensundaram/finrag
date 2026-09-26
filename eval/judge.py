@@ -1,5 +1,5 @@
 import json
-from explore import client     # reuse the Anthropic client you already set up
+from finrag.clients import anthropic_client as client
 
 JUDGE_MODEL = "claude-sonnet-5"
 VERDICT_SCORES = {"CORRECT": 1.0, "PARTIAL": 0.5, "INCORRECT": 0.0}

@@ -1,7 +1,7 @@
 # End-to-end answer scoring: finrag answers every golden question,
 # the judge grades each answer, and we report scores by question type.
 import json
-from explore import answer_with_context
+from finrag.generate import answer_with_context
 from eval.judge import judge, VERDICT_SCORES
 from eval.recall import load_golden, GOLDEN_PATH
 from eval.history import log_run
