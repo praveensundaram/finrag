@@ -1,0 +1,796 @@
+weight=400 italic=False margin-top=6pt  
+  count=139  avg_len=500  items=['1', '15', '1A', '3', '5', '7', '7A', '8', '9A', '9B', 'front']
+    -  123  Large accelerated filer ☒ Accelerated filer ☐ Non-accelerated filer ☐ 
+    -  255  The Company designs, manufactures and markets smartphones, personal co
+    -  170  iPhone ® is the Company’s line of smartphones based on its iOS operati
+    -  223  Mac ® is the Company’s line of personal computers based on its macOS ®
+    -  164  iPad ® is the Company’s line of multipurpose tablets based on its iPad
+    -  441  Wearables includes smartwatches, wireless headphones and spatial compu
+    -  122  The Company’s advertising services include third-party licensing arran
+    -  396  The Company offers a portfolio of fee-based service and support produc
+    -  149  The Company’s cloud services store and keep customers’ content up-to-d
+    -  196  The Company operates various platforms, including the App Store ® , th
+    -  133  The Company offers payment services, including Apple Card ® , a co-bra
+    -  784  The Company manages its business primarily on a geographic basis. The 
+    -  747  The Company’s customers are primarily in the consumer, small and mid-s
+    -  714  The markets for the Company’s products and services are highly competi
+    -  731  Although most components essential to the Company’s business are gener
+    -  560  Because the industries in which the Company competes are characterized
+    -  621  The Company currently holds a broad collection of intellectual propert
+    -  680  The Company has historically experienced higher net sales in its first
+    -  557  The Company believes that its people play an important role in its suc
+    - 1103  The Company’s Annual Reports on Form 10-K, Quarterly Reports on Form 1
+    -  439  The Company has international operations with sales outside the U.S. r
+    -  400  Political events, trade and other international disputes, geopolitical
+    -  490  The Company’s products and services are offered in highly competitive 
+    - 1969  Due to the highly volatile and competitive nature of the markets and i
+    - 1575  A significant majority of the Company’s manufacturing is performed in 
+    -  750  Because the Company currently obtains certain components from single o
+    - 2138  The Company offers complex hardware and software products and services
+    -  649  The Company records a write-down for product and component inventories
+    -  575  The Company believes decisions by customers to purchase its hardware p
+    -  994  The Company contracts with numerous third parties to offer their digit
+    - 1378  Much of the Company’s future success depends on the talents and effort
+    -  340  The Company distributes its products and certain of its services throu
+    - 1042  The Company and its global supply chain are dependent on complex infor
+    -  650  The Company’s business requires it to use and store confidential infor
+    - 1280  The Company has invested, and in the future may invest, in new busines
+    -  660  The Company is subject to various claims, legal proceedings and govern
+    -  928  The Company’s global operations are subject to complex and changing la
+    - 1375  Various stakeholders, including governments, regulators, investors, em
+    -  605  From time to time, the Company has made changes to its business, inclu
+    -  872  The Company is subject to an increasing number of federal, state and i
+    - 1713  The Company’s gross margins vary significantly across its products, se
+    -  433  The Company’s primary exposure to movements in foreign exchange rates 
+    -  661  The Company’s investments can be negatively affected by changes in liq
+    - 1466  The Company distributes its products and certain of its services throu
+    -  943  The Company is subject to taxes in the U.S. and numerous foreign juris
+    - 1364  The Company’s stock has experienced substantial price volatility in th
+    - 1681  On March 25, 2024, the Commission announced that it had opened a forma
+    -  728  On March 21, 2024, the DOJ and a number of state and district attorney
+    - 2208  Epic Games, Inc. filed a lawsuit in the U.S. District Court for the No
+    -  652  The Company is subject to other legal proceedings and claims that have
+    -   65  As of October 17, 2025, there were 22,429 shareholders of record.
+    -  187  Share repurchase activity during the three months ended September 27, 
+    -  518  The following graph shows a comparison of five-year cumulative total s
+    -  173  The Company announces new product, service and software offerings at v
+    -  399  The Company’s fiscal year is the 52- or 53-week period that ends on th
+    -  231  Macroeconomic conditions, including inflation, interest rates and curr
+    - 1843  Beginning in the second quarter of 2025, new U.S. Tariffs were announc
+    -  104  The following table shows net sales by reportable segment for 2025, 20
+    -  254  Americas net sales increased during 2025 compared to 2024 primarily du
+    -  118  Europe net sales increased during 2025 compared to 2024 primarily due 
+    -  151  Greater China net sales decreased during 2025 compared to 2024 primari
+    -  118  Japan net sales increased during 2025 compared to 2024 primarily due t
+    -  132  Rest of Asia Pacific net sales increased during 2025 compared to 2024 
+    -   94  The following table shows net sales by category for 2025, 2024 and 202
+    -   94  iPhone net sales increased during 2025 compared to 2024 due to higher 
+    -  111  Mac net sales increased during 2025 compared to 2024 primarily due to 
+    -  169  iPad net sales increased during 2025 compared to 2024 primarily due to
+    -  143  Wearables, Home and Accessories net sales decreased during 2025 compar
+    -  143  Services net sales increased during 2025 compared to 2024 primarily du
+    -  125  Products and Services gross margin and gross margin percentage for 202
+    -  135  Gross margin percentage: Products 36.8 % 37.2 % 36.5 % Services 75.4 %
+    -  160  Products gross margin increased during 2025 compared to 2024 primarily
+    -  136  Services gross margin increased during 2025 compared to 2024 primarily
+    -   81  Operating expenses for 2025, 2024 and 2023 were as follows (dollars in
+    -  152  The growth in R&D expense during 2025 compared to 2024 was primarily d
+    -  181  The growth in selling, general and administrative expense during 2025 
+    -  147  Provision for income taxes, effective tax rate and statutory federal i
+    -  342  The Company believes its balances of cash, cash equivalents and market
+    -  334  As of September 27, 2025, the Company had outstanding fixed-rate notes
+    -  274  The Company has lease arrangements for certain equipment and facilitie
+    -  418  The Company utilizes several outsourcing partners to manufacture subas
+    -  429  The Company’s other purchase obligations primarily consist of noncance
+    -  189  As of September 27, 2025, the balance of the deemed repatriation tax p
+    -  373  In addition to its contractual cash requirements, the Company has an a
+    -  867  The preparation of financial statements and related disclosures in con
+    -  855  The Company is subject to income taxes in the U.S. and numerous foreig
+    -  505  The Company is subject to various legal proceedings and claims that ar
+    -  509  The Company is primarily exposed to fluctuations in U.S. interest rate
+    -  774  The Company’s exposure to foreign exchange rate risk relates primarily
+    -  406  The consolidated financial statements include the accounts of Apple In
+    -  112  The Company records revenue net of taxes collected from customers that
+    -  141  The Company recognizes share-based compensation expense on a straight-
+    -  126  All highly liquid investments with maturities of three months or less 
+    -   50  Trade receivables are stated at transaction price.
+    -   83  The cost of securities sold is determined using the specific identific
+    -   62  Inventories are measured using the first-in, first-out method.
+    -  135  Property, plant and equipment are stated at cost. Depreciation on prop
+    -  117  The Company presents derivative assets and liabilities at their gross 
+    -  147  The Company records certain deferred tax assets and liabilities in con
+    -  142  The Company combines and accounts for lease and nonlease components as
+    -  698  The Company recognizes revenue at the amount to which it expects to be
+    -  155  The following table shows the computation of basic and diluted earning
+    -  186  The following tables show the Company’s cash, cash equivalents and mar
+    -  475  The Company may use derivative instruments to partially offset its bus
+    -  348  To protect gross margins from fluctuations in foreign exchange rates, 
+    -  250  To protect the Company’s term debt or marketable securities from fluct
+    -  414  As of September 27, 2025, the Company had one customer that represente
+    -  846  The Company has non-trade receivables from certain of its manufacturin
+    -  188  The following table shows the Company’s gross property, plant and equi
+    -  143  The following tables show the Company’s consolidated financial stateme
+    -  542  On August 30, 2016, the Commission announced its decision that Ireland
+    -   97  The provision for income taxes for 2025, 2024 and 2023, consisted of t
+    -  159  As of September 27, 2025 and September 28, 2024, the significant compo
+    -  376  As of September 27, 2025, the total amount of gross unrecognized tax b
+    -  303  The Company has lease arrangements for certain equipment and facilitie
+    -  709  The Company issues unsecured short-term promissory notes pursuant to a
+    -  222  The Company has outstanding Notes, which are senior unsecured obligati
+    -  111  2026 $ 12,393 2027 10,078 2028 9,300 2029 5,235 2030 4,972 Thereafter 
+    -  374  During 2025, the Company repurchased 402 million shares of its common 
+    -  103  The following table shows the changes in shares of common stock for 20
+    -  803  The Apple Inc. 2022 Employee Stock Plan (“2022 Plan”) is a shareholder
+    -   87  A summary of the Company’s RSU activity and related information for 20
+    -  186  The following table shows share-based compensation expense and the rel
+    -  479  The Company has entered into certain off–balance sheet commitments tha
+    -   84  2026 $ 4,752 2027 3,708 2028 1,981 2029 1,306 2030 788 Thereafter 773 
+    -  448  The Company is subject to various legal proceedings and claims that ha
+    -  731  Although most components essential to the Company’s business are gener
+    -   96  The Company manages its business primarily on a geographic basis. The 
+    -  759  We have audited the accompanying consolidated balance sheets of Apple 
+    -  452  These financial statements are the responsibility of the Company’s man
+    -  681  The critical audit matter communicated below is a matter arising from 
+    -  692  The Company’s management is responsible for maintaining effective inte
+    - 1091  A company’s internal control over financial reporting is a process des
+    -  825  Based on an evaluation under the supervision and with the participatio
+    -  340  The Company’s internal control over financial reporting is designed to
+    -  984  The Company’s management is responsible for establishing and maintaini
+    -  392  There were no changes in the Company’s internal control over financial
+    -    5  None.
+    -  320  All financial statement schedules have been omitted, since the require
+
+weight=400 italic=False margin-top=12pt  
+  count=133  avg_len=507  items=['1', '16', '1A', '1C', '7', '7A', '8', '9A']
+    -  189  Home includes Apple TV 4K ® , the Company’s media streaming and gaming
+    -   63  Accessories includes Apple-branded and third-party accessories.
+    -  386  The Company also offers digital content through subscription-based ser
+    -  834  The Company’s ability to compete successfully depends heavily on ensur
+    - 1453  The Company is focused on expanding its market opportunities related t
+    - 1123  The Company uses some custom components that are not commonly used by 
+    -  650  The Company regularly files patent, design, copyright and trademark ap
+    -  536  In addition to Company-owned intellectual property, many of the Compan
+    -  505  The Company believes that compensation should be competitive and equit
+    -  327  The Company invests in resources to help its people develop and achiev
+    -  422  The Company believes that open and honest communication among team mem
+    -  289  The Company is committed to the safety and security of its team member
+    -  302  This section should be read in conjunction with Part II, Item 7, “Mana
+    -  529  Adverse macroeconomic conditions, including slow growth or recession, 
+    -  391  Uncertainty about, or a decline in, global or regional economic condit
+    -  483  Adverse economic conditions can also lead to increased credit and coll
+    - 3647  The Company has a large, global business with sales outside the U.S. r
+    -  768  Many of the Company’s operations, retail stores and facilities, as wel
+    -  367  Such events can make it difficult or impossible for the Company to man
+    - 1083  The Company’s operations are also subject to the risks of industrial a
+    -  690  Following any interruption to its business, the Company can require su
+    -  572  The Company’s ability to compete successfully depends heavily on ensur
+    -  694  The Company’s ability to compete successfully also depends on the effe
+    -  784  The Company currently holds a significant number of patents, trademark
+    - 1271  The Company’s products and services face substantial competition from 
+    -  172  If the Company is unable to compete successfully, its business, reputa
+    -  206  Changes or additions to the Company’s supply chain require considerabl
+    - 1158  Additionally, the Company’s new products often utilize custom componen
+    -  649  The Company orders components for its products and builds inventory in
+    -  579  The Company believes that third-party developer support depends on the
+    -  483  The Company’s minority market share in the global smartphone, personal
+    -  543  The Company relies on the continued availability and development of co
+    -  211  The Company also produces its own digital content, which can be costly
+    -  439  The Company believes that its distinctive and inclusive culture is a s
+    -  871  The Company has invested and will continue to invest in programs to en
+    -  704  The Company’s business also requires it to share confidential informat
+    - 1017  The Company experiences malicious attacks and other attempts to gain u
+    -  348  Although malicious attacks perpetrated to gain access to confidential 
+    -  965  As with all companies, the security the Company has implemented may no
+    -  217  While the Company maintains insurance coverage that is intended to add
+    -  984  The Company has faced and continues to face a significant number of pa
+    -  857  Regardless of the merit of particular claims, defending against litiga
+    - 1059  The outcome of litigation or government investigations is inherently u
+    -  178  While the Company maintains insurance coverage for certain types of cl
+    -  918  Compliance with these laws and regulations is onerous and expensive. N
+    -  466  Risks and costs related to new and changing laws, regulations, executi
+    -  700  Regulatory changes and other actions that materially adversely affect 
+    - 1463  Globally, several jurisdictions have adopted, or may in the future ado
+    - 1063  The Company is also currently subject to antitrust investigations and 
+    - 1648  Further, the Company has commercial relationships with other companies
+    -  787  The Company’s business, results of operations, financial condition and
+    -  806  The Company makes statements about its use and disclosure of personal 
+    -  871  In addition to the risks generally relating to the collection, use, re
+    -  631  The Company is also subject to new and changing laws and regulations r
+    -  576  The weakening of foreign currencies relative to the U.S. dollar advers
+    -  498  Conversely, a strengthening of foreign currencies relative to the U.S.
+    -  391  The Company uses derivative instruments, such as foreign currency forw
+    -  686  The Company is also subject to the examination of its tax returns and 
+    -  927  The Company’s Information Security team coordinates with teams across 
+    -  652  The Audit Committee assists the Board in the oversight and monitoring 
+    -  126  For a discussion of the Company’s cybersecurity-related risks, see Ite
+    -   19  First Quarter 2025:
+    -   20  Second Quarter 2025:
+    -   19  Third Quarter 2025:
+    -   20  Fourth Quarter 2025:
+    -  177  Products gross margin percentage decreased during 2025 compared to 202
+    -  151  Services gross margin percentage increased during 2025 compared to 202
+    -  388  The Company’s effective tax rate for 2025 was lower than the statutory
+    -  465  The Company’s effective tax rate for 2025 was lower compared to 2024 d
+    -   87  The Company’s material cash requirements include the following contrac
+    -  225  The Company also issues unsecured short-term promissory notes pursuant
+    -  307  In May 2025, the Company announced a new share repurchase program of u
+    -  299  The following table sets forth potential impacts on the Company’s inve
+    -  788  The Company applied a value-at-risk (“VAR”) model to its foreign curre
+    -  293  All financial statement schedules have been omitted, since the require
+    -   60  See accompanying Notes to Consolidated Financial Statements.
+    -   60  See accompanying Notes to Consolidated Financial Statements.
+    -   60  See accompanying Notes to Consolidated Financial Statements.
+    -   60  See accompanying Notes to Consolidated Financial Statements.
+    -   60  See accompanying Notes to Consolidated Financial Statements.
+    -  618  The Company’s fiscal year is the 52- or 53-week period that ends on th
+    -  205  The Company records reductions to Products net sales related to future
+    -  977  For arrangements with multiple performance obligations, which represen
+    - 1083  The Company has identified the performance obligations regularly inclu
+    -  459  For certain long-term service arrangements, the Company has performanc
+    -  802  For the sale of third-party products where the Company obtains control
+    -  161  The following table shows disaggregated net sales, as well as the port
+    -  181  Approximately 24 million restricted stock units (“RSUs”) were excluded
+    -  248  The Company’s investments in marketable debt securities have been clas
+    -  194  All derivative instruments are recorded in the Consolidated Balance Sh
+    -  635  Gains and losses arising from amounts that are included in the assessm
+    -  425  For derivative instruments designated as cash flow and fair value hedg
+    -  188  Gains and losses arising from changes in the fair values of derivative
+    -  215  The Company classifies cash flows related to derivative instruments in
+    -  494  To protect the Company’s foreign currency–denominated term debt or mar
+    -  349  The Company may also use derivative instruments that are not designate
+    -  146  Depreciation expense on property, plant and equipment was $ 8.0 billio
+    -  823  The Company and Ireland appealed the State Aid Decision to the General
+    -  116  Foreign pretax earnings were $ 82.0 billion, $ 77.3 billion and $ 72.9
+    -  259  A reconciliation of the provision for income taxes to the amount compu
+    -  326  As of September 27, 2025, the Company had $ 4.7 billion in foreign tax
+    -  163  The aggregate change in the balance of gross unrecognized tax benefits
+    -  517  The Company is subject to taxation and files income tax returns in the
+    -  488  Payments under the Company’s lease arrangements may be fixed or variab
+    -  321  The Company made fixed cash payments related to operating leases of $ 
+    -  173  The following table shows ROU assets and lease liabilities, and the as
+    -   82  Lease liability maturities as of September 27, 2025, are as follows (i
+    -  545  The weighted-average remaining lease term related to the Company’s lea
+    -  301  As of September 27, 2025, the Company had $ 523 million of fixed payme
+    -  441  To manage interest rate risk on certain of its U.S. dollar–denominated
+    -  169  The effective interest rates for the Notes include the interest on the
+    -  109  The future principal payments for the Company’s Notes as of September 
+    -  165  As of September 27, 2025 and September 28, 2024, the fair value of the
+    -  252  The weighted-average grant-date fair value of RSUs granted in 2024 and
+    -  551  The total vesting-date fair value of RSUs was $ 17.1 billion, $ 15.8 b
+    -  198  As of September 27, 2025, the total unrecognized compensation cost rel
+    - 1123  The Company uses some custom components that are not commonly used by 
+    -  186  Substantially all of the Company’s hardware products are manufactured 
+    -  718  The Company’s reportable segments consist of the Americas, Europe, Gre
+    -  681  The CODM uses segment net sales and operating income information to ma
+    -   98  The following tables show information by reportable segment for 2025, 
+    -   60  To the Shareholders and the Board of Directors of Apple Inc.
+    -  856  We conducted our audits in accordance with the standards of the PCAOB.
+    -   51  We have served as the Company’s auditor since 2009.
+    -   60  To the Shareholders and the Board of Directors of Apple Inc.
+    -  505  We also have audited, in accordance with the standards of the Public C
+    -  266  We conducted our audit in accordance with the standards of the PCAOB. 
+    -  410  Our audit included obtaining an understanding of internal control over
+    -  366  Because of its inherent limitations, internal control over financial r
+    - 1000  Management, including the Company’s Chief Executive Officer and Chief 
+    -  208  Pursuant to the requirements of Section 13 or 15(d) of the Securities 
+    -  618  KNOW ALL PERSONS BY THESE PRESENTS, that each person whose signature a
+    -  205  Pursuant to the requirements of the Securities Exchange Act of 1934, t
+
+weight=700 italic=False margin-top=18pt  
+  count=77  avg_len=25  items=['1', '14', '16', '1A', '4', '5', '7', '7A', '8', '9A', '9B', '9C', 'front']
+    -    6  PART I
+    -    8  Products
+    -    8  Services
+    -    8  Segments
+    -   24  Markets and Distribution
+    -   11  Competition
+    -   20  Supply of Components
+    -   24  Research and Development
+    -   21  Intellectual Property
+    -   46  Business Seasonality and Product Introductions
+    -   13  Human Capital
+    -   21  Available Information
+    -   14  Business Risks
+    -   37  Legal and Regulatory Compliance Risks
+    -   15  Financial Risks
+    -   13  General Risks
+    -    7  PART II
+    -    7  Holders
+    -   70  Purchases of Equity Securities by the Issuer and Affiliated Purchasers
+    -   25  Company Stock Performance
+    -   43  Product, Service and Software Announcements
+    -   13  Fiscal Period
+    -   24  Macroeconomic Conditions
+    -   26  Tariffs and Other Measures
+    -   29  Segment Operating Performance
+    -   33  Products and Services Performance
+    -   12  Gross Margin
+    -   18  Operating Expenses
+    -   26  Provision for Income Taxes
+    -   31  Liquidity and Capital Resources
+    -   32  Recent Accounting Pronouncements
+    -   29  Critical Accounting Estimates
+    -   18  Interest Rate Risk
+    -   26  Foreign Exchange Rate Risk
+    -   42  Recently Adopted Accounting Pronouncements
+    -    7  Revenue
+    -   24  Share-Based Compensation
+    -   16  Cash Equivalents
+    -   17  Trade Receivables
+    -   21  Marketable Securities
+    -   11  Inventories
+    -   29  Property, Plant and Equipment
+    -   22  Derivative Instruments
+    -   12  Income Taxes
+    -    6  Leases
+    -   16  Note 2 – Revenue
+    -   27  Note 3 – Earnings Per Share
+    -   30  Note 4 – Financial Instruments
+    -   34  Derivative Instruments and Hedging
+    -   19  Accounts Receivable
+    -   38  Note 5 – Property, Plant and Equipment
+    -   49  Note 6 – Consolidated Financial Statement Details
+    -   24  Other Non-Current Assets
+    -   25  Other Current Liabilities
+    -   21  Note 7 – Income Taxes
+    -   49  Provision for Income Taxes and Effective Tax Rate
+    -   35  Deferred Tax Assets and Liabilities
+    -   23  Uncertain Tax Positions
+    -   15  Note 8 – Leases
+    -   13  Note 9 – Debt
+    -    9  Term Debt
+    -   30  Note 10 – Shareholders’ Equity
+    -   22  Shares of Common Stock
+    -   34  Note 11 – Share-Based Compensation
+    -   22  Restricted Stock Units
+    -   24  Share-Based Compensation
+    -   62  Note 12 – Commitments, Contingencies and Supply Concentrations
+    -   13  Contingencies
+    -   74  Concentrations in the Available Sources of Supply of Materials and Pro
+    -   49  Note 13 – Segment Information and Geographic Data
+    -   43  Inherent Limitations over Internal Controls
+    -   71  Management’s Annual Report on Internal Control over Financial Reportin
+    -   52  Changes in Internal Control over Financial Reporting
+    -   28  Insider Trading Arrangements
+    -    8  PART III
+    -    7  PART IV
+    -   17  Power of Attorney
+
+weight=400 italic=False margin-top=-  
+  count=71  avg_len=36  items=['1', '14', '15', '16', '1A', '2', '4', '5', '6', '7', '7A', '8', '9A', 'front']
+    -   10  (Mark One)
+    -   52  (Registrant’s telephone number, including area code)
+    -  344  Indicate by check mark whether the Registrant (1) has filed all report
+    -   31  Apple Inc. | 2025 Form 10-K | 1
+    -   31  Apple Inc. | 2025 Form 10-K | 2
+    -   31  Apple Inc. | 2025 Form 10-K | 3
+    -   31  Apple Inc. | 2025 Form 10-K | 4
+    -   31  Apple Inc. | 2025 Form 10-K | 5
+    -   31  Apple Inc. | 2025 Form 10-K | 6
+    -   31  Apple Inc. | 2025 Form 10-K | 7
+    -   31  Apple Inc. | 2025 Form 10-K | 8
+    -   31  Apple Inc. | 2025 Form 10-K | 9
+    -   32  Apple Inc. | 2025 Form 10-K | 10
+    -   32  Apple Inc. | 2025 Form 10-K | 11
+    -   32  Apple Inc. | 2025 Form 10-K | 12
+    -   32  Apple Inc. | 2025 Form 10-K | 13
+    -   32  Apple Inc. | 2025 Form 10-K | 14
+    -   32  Apple Inc. | 2025 Form 10-K | 15
+    -   32  Apple Inc. | 2025 Form 10-K | 16
+    -   32  Apple Inc. | 2025 Form 10-K | 17
+    -   32  Apple Inc. | 2025 Form 10-K | 18
+    -   32  Apple Inc. | 2025 Form 10-K | 19
+    -   32  Apple Inc. | 2025 Form 10-K | 20
+    -   32  Apple Inc. | 2025 Form 10-K | 21
+    -   32  Apple Inc. | 2025 Form 10-K | 22
+    -   32  Apple Inc. | 2025 Form 10-K | 23
+    -   32  Apple Inc. | 2025 Form 10-K | 24
+    -   32  Apple Inc. | 2025 Form 10-K | 25
+    -   32  Apple Inc. | 2025 Form 10-K | 26
+    -   32  Apple Inc. | 2025 Form 10-K | 27
+    -   32  Apple Inc. | 2025 Form 10-K | 28
+    -   95  (In millions, except number of shares, which are reflected in thousand
+    -   32  Apple Inc. | 2025 Form 10-K | 29
+    -   13  (In millions)
+    -   32  Apple Inc. | 2025 Form 10-K | 30
+    -   87  (In millions, except number of shares, which are reflected in thousand
+    -   32  Apple Inc. | 2025 Form 10-K | 31
+    -   39  (In millions, except per-share amounts)
+    -   32  Apple Inc. | 2025 Form 10-K | 32
+    -   13  (In millions)
+    -   32  Apple Inc. | 2025 Form 10-K | 33
+    -   32  Apple Inc. | 2025 Form 10-K | 34
+    -   32  Apple Inc. | 2025 Form 10-K | 35
+    -   32  Apple Inc. | 2025 Form 10-K | 36
+    -   32  Apple Inc. | 2025 Form 10-K | 37
+    -   32  Apple Inc. | 2025 Form 10-K | 38
+    -   32  Apple Inc. | 2025 Form 10-K | 39
+    -   32  Apple Inc. | 2025 Form 10-K | 40
+    -   32  Apple Inc. | 2025 Form 10-K | 41
+    -   32  Apple Inc. | 2025 Form 10-K | 42
+    -   32  Apple Inc. | 2025 Form 10-K | 43
+    -   32  Apple Inc. | 2025 Form 10-K | 44
+    -   32  Apple Inc. | 2025 Form 10-K | 45
+    -   32  Apple Inc. | 2025 Form 10-K | 46
+    -   32  Apple Inc. | 2025 Form 10-K | 47
+    -   32  Apple Inc. | 2025 Form 10-K | 48
+    -   32  Apple Inc. | 2025 Form 10-K | 49
+    -   20  San Jose, California
+    -   16  October 31, 2025
+    -   32  Apple Inc. | 2025 Form 10-K | 50
+    -   21  /s/ Ernst & Young LLP
+    -   20  San Jose, California
+    -   16  October 31, 2025
+    -   32  Apple Inc. | 2025 Form 10-K | 51
+    -   32  Apple Inc. | 2025 Form 10-K | 52
+    -   32  Apple Inc. | 2025 Form 10-K | 53
+    -   32  Apple Inc. | 2025 Form 10-K | 54
+    -   32  Apple Inc. | 2025 Form 10-K | 55
+    -   32  Apple Inc. | 2025 Form 10-K | 56
+    -   32  Apple Inc. | 2025 Form 10-K | 57
+    -   32  Apple Inc. | 2025 Form 10-K | 58
+
+weight=400 italic=True margin-top=18pt  
+  count=34  avg_len=64  items=['1', '3', '7', '8', 'front']
+    - 1570  This Annual Report on Form 10-K (“Form 10-K”) contains forward-looking
+    -    9  AppleCare
+    -   14  Cloud Services
+    -   15  Digital Content
+    -   16  Payment Services
+    -   29  Department of Justice Lawsuit
+    -   10  Epic Games
+    -   23  Other Legal Proceedings
+    -    8  Americas
+    -    6  Europe
+    -   13  Greater China
+    -    5  Japan
+    -   20  Rest of Asia Pacific
+    -    6  iPhone
+    -    3  Mac
+    -    4  iPad
+    -   31  Wearables, Home and Accessories
+    -    8  Services
+    -   21  Products Gross Margin
+    -   21  Services Gross Margin
+    -   24  Research and Development
+    -   35  Selling, General and Administrative
+    -    6  Leases
+    -   34  Manufacturing Purchase Obligations
+    -   26  Other Purchase Obligations
+    -   31  Deemed Repatriation Tax Payable
+    -   22  Capital Return Program
+    -   43  Disaggregation of Income Statement Expenses
+    -   12  Income Taxes
+    -   23  Uncertain Tax Positions
+    -   29  Legal and Other Contingencies
+    -   26  Foreign Exchange Rate Risk
+    -   18  Interest Rate Risk
+    -   28  Vendor Non-Trade Receivables
+
+weight=400 italic=False margin-top=9pt  
+  count=24  avg_len=260  items=['10', '11', '12', '13', '14', '1A', '1B', '1C', '2', '4', '5', '7A', '9', '9B', '9C', 'front']
+    -  124  Indicate by check mark if the Registrant is not required to file repor
+    -  308  Indicate by check mark whether the Registrant has submitted electronic
+    -  347  Indicate by check mark whether the Registrant is a large accelerated f
+    -  336  Indicate by check mark whether the Registrant has filed a report on an
+    -  243  If securities are registered pursuant to Section 12(b) of the Act, ind
+    -  264  Indicate by check mark whether any of those error corrections are rest
+    -  103  Indicate by check mark whether the Registrant is a shell company (as d
+    -  603  The aggregate market value of the voting and non-voting stock held by 
+    -   89  14,776,353,000 shares of common stock were issued and outstanding as o
+    -  711  The following summarizes factors that could have a material adverse ef
+    -    5  None.
+    -  970  The Company’s management, led by its Head of Corporate Information Sec
+    -  464  The Company’s headquarters is located in Cupertino, California. As of 
+    -   15  Not applicable.
+    -   90  The Company’s common stock is traded on The Nasdaq Stock Market LLC un
+    -  226  The Company is exposed to economic risk from interest rates and foreig
+    -    5  None.
+    -  507  On October 31, 2025, the Company announced that Chris Kondo, Senior Di
+    -   15  Not applicable.
+    -  333  The information required by this Item will be included in the Company’
+    -  124  The information required by this Item will be included in the 2026 Pro
+    -  124  The information required by this Item will be included in the 2026 Pro
+    -  124  The information required by this Item will be included in the 2026 Pro
+    -  124  The information required by this Item will be included in the 2026 Pro
+
+weight=700 italic=True margin-top=18pt  
+  count=22  avg_len=181  items=['1A']
+    -  239  The Company’s business can be impacted by political events, trade and 
+    -  191  Global markets for the Company’s products and services are highly comp
+    -  162  The Company depends on component and product manufacturing and logisti
+    -  138  Future operating results depend upon the Company’s ability to obtain c
+    -  215  The Company’s products and services may be affected from time to time 
+    -  151  The Company is exposed to the risk of write-downs on the value of its 
+    -  153  The Company relies on access to third-party intellectual property, whi
+    -   97  The Company’s future performance depends in part on support from third
+    -  263  Failure to obtain or create digital content that appeals to the Compan
+    -  254  The Company’s success depends largely on the talents and efforts of it
+    -   71  The Company depends on the performance of carriers and other resellers
+    -  117  The Company’s business and reputation are impacted by information tech
+    -  207  Losses or unauthorized access to or releases of confidential informati
+    -  284  Investment in new business strategies, commercial relationships and ac
+    -  199  The Company is subject to complex and changing laws and regulations wo
+    -  195  Varied stakeholder expectations about social and other issues expose t
+    -  239  The technology industry, including, in some instances, the Company, is
+    -  189  The Company’s business is subject to a variety of U.S. and internation
+    -  141  The Company’s financial performance is subject to risks associated wit
+    -   97  The Company is exposed to credit risk and fluctuations in the values o
+    -  232  The Company is exposed to credit risk on its trade accounts receivable
+    -  149  The Company is subject to changes in tax rates, the adoption of new U.
+
+weight=700 italic=False margin-top=18pt indent 
+  count=16  avg_len=44  items=['11', '12', '13', '14', '1A', '1B', '1C', '2', '3', '4', '6', '7A', '9A', '9B', '9C']
+    -   24  Item 1A.    Risk Factors
+    -   32  Macroeconomic and Industry Risks
+    -   37  Item 1B.    Unresolved Staff Comments
+    -   25  Item 1C.    Cybersecurity
+    -   21  Item 2.    Properties
+    -   28  Item 3.    Legal Proceedings
+    -   34  Item 4.    Mine Safety Disclosures
+    -   21  Item 6.    [Reserved]
+    -   70  Item 7A.    Quantitative and Qualitative Disclosures About Market Risk
+    -   35  Item 9A.    Controls and Procedures
+    -   29  Item 9B.    Other Information
+    -   79  Item 9C.    Disclosure Regarding Foreign Jurisdictions that Prevent In
+    -   34  Item 11.    Executive Compensation
+    -  106  Item 12.    Security Ownership of Certain Beneficial Owners and Manage
+    -   85  Item 13.    Certain Relationships and Related Transactions, and Direct
+    -   50  Item 14.    Principal Accountant Fees and Services
+
+weight=700 italic=False margin-top=9pt  
+  count=15  avg_len=34  items=['1', '8', '9A']
+    -   18  Company Background
+    -   37  CONSOLIDATED STATEMENTS OF OPERATIONS
+    -   47  CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+    -   27  CONSOLIDATED BALANCE SHEETS
+    -   47  CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY
+    -   37  CONSOLIDATED STATEMENTS OF CASH FLOWS
+    -   42  Notes to Consolidated Financial Statements
+    -   37  Basis of Presentation and Preparation
+    -   48  Cash, Cash Equivalents and Marketable Securities
+    -   38  European Commission State Aid Decision
+    -   16  Commercial Paper
+    -   24  Share Repurchase Program
+    -   24  2022 Employee Stock Plan
+    -   34  Unconditional Purchase Obligations
+    -   48  Evaluation of Disclosure Controls and Procedures
+
+weight=700 italic=False margin-top=3pt  MIXED
+  count=14  avg_len=315  items=['7', '8']
+    -  302  2025 Change 2024 Change 2023 Americas $ 178,353 7 % $ 167,045 3 % $ 16
+    -  146  2025 2024 2023 Gross margin: Products $ 112,887 $ 109,633 $ 108,803 Se
+    -  349  2025 Change 2024 Change 2023 Research and development $ 34,550 10 % $ 
+    -  157  2025 2024 2023 Provision for income taxes $ 20,719 $ 29,749 $ 16,741 E
+    -  370  2025 2024 2023 Numerator: Net income $ 112,010 $ 93,736 $ 96,995 Denom
+    -  258  2025 2024 Derivative instruments designated as accounting hedges: Fore
+    -  135  2025 2024 Deferred tax assets $ 20,777 $ 19,499 Other non-current asse
+    -  344  2025 2024 2023 Federal: Current $ 11,487 $ 5,571 $ 9,445 Deferred ( 1,
+    -  608  2025 2024 Deferred tax assets: Capitalized research and development $ 
+    -  523  2025 2024 2023 Beginning balances $ 22,038 $ 19,454 $ 16,758 Increases
+    -  323  Operating Leases Finance Leases Total 2026 $ 1,967 $ 563 $ 2,530 2027 
+    -  413  2025 2024 2023 Maturities 90 days or less: Proceeds from/(Repayments o
+    -  312  2025 2024 2023 Common stock outstanding, beginning balances 15,116,786
+    -  173  2025 2024 2023 Share-based compensation expense $ 12,863 $ 11,688 $ 10
+
+weight=700 italic=False margin-top=-  
+  count=13  avg_len=19  items=['16', '8', 'front']
+    -   34  SECURITIES AND EXCHANGE COMMISSION
+    -   22  Washington, D.C. 20549
+    -   10  Apple Inc.
+    -    9  Form 10-K
+    -   10  Apple Inc.
+    -   10  Apple Inc.
+    -   10  Apple Inc.
+    -   10  Apple Inc.
+    -   10  Apple Inc.
+    -   10  Apple Inc.
+    -   55  Report of Independent Registered Public Accounting Firm
+    -   55  Report of Independent Registered Public Accounting Firm
+    -   10  SIGNATURES
+
+weight=400 italic=False margin-top=6pt indent 
+  count=12  avg_len=133  items=['15', '7', '8', '9A']
+    -   13  • MacBook Pro
+    -   12  • iPhone 16e
+    -   72  • iOS 26, macOS Tahoe 26, iPadOS 26, watchOS 26, visionOS 26 and tvOS 
+    -   60  • iPhone 17, iPhone Air, iPhone 17 Pro and iPhone 17 Pro Max
+    -  289  (2) As of September 28, 2024, cash and cash equivalents included $ 2.6
+    -  290  (3) As of September 28, 2024, current marketable securities included $
+    -  298  (ii) provide reasonable assurance that transactions are recorded as ne
+    -  211  (iii) provide reasonable assurance regarding prevention or timely dete
+    -   47  * Ernst & Young LLP, PCAOB Firm ID No. 000 42 .
+    -   18  ** Filed herewith.
+    -   23  *** Furnished herewith.
+    -  266  (1) Certain instruments defining the rights of holders of long-term de
+
+weight=400 italic=False margin-top=- indent 
+  count=9  avg_len=16  items=['7']
+    -   10  • Mac mini
+    -    6  • iMac
+    -   11  • iPad mini
+    -   10  • iPad Air
+    -    6  • iPad
+    -   13  • MacBook Air
+    -   12  • Mac Studio
+    -   65  • Apple Watch Series 11, Apple Watch SE 3 and Apple Watch Ultra 3
+    -   15  • AirPods Pro 3
+
+weight=400 italic=True margin-top=9pt  
+  count=8  avg_len=86  items=['1', '3', '7', '8']
+    -    6  iPhone
+    -   11  Advertising
+    -   34  Digital Markets Act Investigations
+    -  581  The following discussion should be read in conjunction with the consol
+    -    4  Debt
+    -   21  Internal-Use Software
+    -   17  Segment Reporting
+    -   17  Trade Receivables
+
+weight=400 italic=False margin-top=3pt  
+  count=7  avg_len=70  items=['front']
+    -   54  (Exact name of Registrant as specified in its charter)
+    -   10  Yes ☒ No ☐
+    -   10  Yes ☐ No ☒
+    -   10  Yes ☒ No ☐
+    -   10  Yes ☒ No ☐
+    -   10  Yes ☐ No ☒
+    -  389  Portions of the Registrant’s definitive proxy statement relating to it
+
+weight=700 italic=False margin-top=12pt  
+  count=7  avg_len=37  items=['8']
+    -   51  Note 1 – Summary of Significant Accounting Policies
+    -   35  Opinion on the Financial Statements
+    -   17  Basis for Opinion
+    -   21  Critical Audit Matter
+    -   52  Opinion on Internal Control Over Financial Reporting
+    -   17  Basis for Opinion
+    -   71  Definition and Limitations of Internal Control Over Financial Reportin
+
+weight=400 italic=False margin-top=6pt  MIXED
+  count=6  avg_len=853  items=['1A', '7', '8']
+    - 1554  The Company’s products and services include technology or intellectual
+    -  783  In September 2025, the Financial Accounting Standards Board (“FASB”) i
+    - 1012  In November 2024, the FASB issued ASU No. 2024-03, Income Statement—Re
+    -  650  In December 2023, the FASB issued ASU No. 2023-09, Income Taxes (Topic
+    -  645  Beginning with the 2025 annual reporting period, the Company adopted t
+    -  475  We have audited Apple Inc.’s internal control over financial reporting
+
+weight=700 italic=False margin-top=12pt indent 
+  count=5  avg_len=57  items=['1', '10', '15', '16', '5']
+    -   19  Item 1.    Business
+    -  119  Item 5.    Market for Registrant’s Common Equity, Related Stockholder 
+    -   66  Item 10.    Directors, Executive Officers and Corporate Governance
+    -   53  Item 15.    Exhibit and Financial Statement Schedules
+    -   29  Item 16.    Form 10-K Summary
+
+weight=700 italic=True margin-top=9pt  
+  count=5  avg_len=150  items=['1A']
+    -  252  The Company’s operations and performance depend significantly on globa
+    -  154  To remain competitive and stimulate customer demand, the Company must 
+    -  171  The Company’s business, results of operations and financial condition 
+    -  118  The Company’s net sales and gross margins are subject to volatility an
+    -   58  The price of the Company’s stock is subject to volatility.
+
+weight=400 italic=False margin-top=12pt indent 
+  count=5  avg_len=256  items=['5', '7', '8']
+    -  681  (1) On May 2, 2024, the Company announced a program to repurchase up t
+    -  125  (1) Services net sales include amortization of the deferred value of s
+    -  125  (1) Services net sales include amortization of the deferred value of s
+    -  312  (1) The valuation techniques used to measure the fair values of the Co
+    -   40  (1) China includes Hong Kong and Taiwan.
+
+weight=400 italic=False margin-top=18pt  
+  count=5  avg_len=252  items=['7', '8']
+    -  273  The Company’s future gross margins can be impacted by a variety of fac
+    -  349  As of September 27, 2025 and September 28, 2024, the Company had total
+    -  152  The notional amounts of the Company’s outstanding derivative instrumen
+    -  201  As of September 27, 2025 and September 28, 2024, the carrying amount o
+    -  285  The following tables show net sales for 2025, 2024 and 2023 and long-l
+
+weight=700 italic=False margin-top=-  MIXED
+  count=4  avg_len=1312  items=['8']
+    -  959  Years ended September 27, 2025 September 28, 2024 September 30, 2023 N
+    -  966  Years ended September 27, 2025 September 28, 2024 September 30, 2023 N
+    - 1176  Years ended September 27, 2025 September 28, 2024 September 30, 2023 T
+    - 2149  Years ended September 27, 2025 September 28, 2024 September 30, 2023 C
+
+weight=400 italic=True margin-top=16pt  
+  count=3  avg_len=12  items=['1']
+    -    3  Mac
+    -    4  iPad
+    -   31  Wearables, Home and Accessories
+
+weight=700 italic=False margin-top=- indent 
+  count=3  avg_len=81  items=['7', '8', '9']
+    -   96  Item 7.    Management’s Discussion and Analysis of Financial Condition
+    -   54  Item 8.    Financial Statements and Supplementary Data
+    -   95  Item 9.    Changes in and Disagreements with Accountants on Accounting
+
+weight=700 italic=False margin-top=7pt  
+  count=2  avg_len=11  items=['front']
+    -   13  UNITED STATES
+    -    9  FORM 10-K
+
+weight=400 italic=False margin-top=3pt  MIXED
+  count=2  avg_len=59  items=['front']
+    -   86  ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCH
+    -   33  Commission File Number: 001-36743
+
+weight=400 italic=False margin-top=2pt  
+  count=2  avg_len=23  items=['front']
+    -   45  For the fiscal year ended September 27 , 2025
+    -    2  or
+
+weight=400 italic=False margin-top=4pt  
+  count=2  avg_len=77  items=['front']
+    -   35  For the transition period from to .
+    -  119  Indicate by check mark if the Registrant is a well-known seasoned issu
+
+weight=400 italic=False margin-top=5pt  
+  count=2  avg_len=32  items=['16', 'front']
+    -   59  Securities registered pursuant to Section 12(b) of the Act:
+    -    5  None.
+
+weight=400 italic=False margin-top=10pt  
+  count=2  avg_len=43  items=['8', 'front']
+    -   65  Securities registered pursuant to Section 12(g) of the Act:  None
+    -   21  /s/ Ernst & Young LLP
+
+weight=700 italic=False margin-top=6pt  
+  count=2  avg_len=30  items=['front']
+    -   44  For the Fiscal Year Ended September 27, 2025
+    -   17  TABLE OF CONTENTS
+
+weight=400 italic=False margin-top=15pt  
+  count=2  avg_len=367  items=['8']
+    -  304  The Company’s proportion of net sales by disaggregated revenue source 
+    -  430  As of September 27, 2025, 80 % of the Company’s non-current marketable
+
+weight=400 italic=False margin-top=9pt indent 
+  count=2  avg_len=113  items=['15', '9A']
+    -  158  (i) pertain to the maintenance of records that, in reasonable detail, 
+    -   68  * Indicates management contract or compensatory plan or arrangement.
+
+weight=700 italic=False margin-top=9pt indent 
+  count=2  avg_len=35  items=['15']
+    -   42  (a) Documents filed as part of this report
+    -   28  (1) All financial statements
+
+weight=700 italic=False margin-top=15pt indent 
+  count=2  avg_len=44  items=['15']
+    -   33  (2) Financial Statement Schedules
+    -   55  (3) Exhibits required by Item 601 of Regulation S-K (1)
+
+weight=400 italic=False margin-top=2pt  MIXED
+  count=1  avg_len=90  items=['front']
+    -   90  ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES 
+
+weight=700 italic=False margin-top=3pt  
+  count=1  avg_len=10  items=['front']
+    -   10  Apple Inc.
+
+weight=700 italic=False margin-top=2pt  
+  count=1  avg_len=16  items=['front']
+    -   16  ( 408 ) 996-1010
+
+weight=400 italic=False margin-top=7pt  
+  count=1  avg_len=252  items=['front']
+    -  252  If an emerging growth company, indicate by check mark if the Registran
+
+weight=700 italic=False margin-top=15pt  
+  count=1  avg_len=35  items=['front']
+    -   35  DOCUMENTS INCORPORATED BY REFERENCE
+
+weight=400 italic=True margin-top=12pt  
+  count=1  avg_len=443  items=['front']
+    -  443  Unless otherwise stated, all information presented herein is based on 
+
+weight=700 italic=False margin-top=6pt  MIXED
+  count=1  avg_len=515  items=['8']
+    -  515  Lease-Related Assets and Liabilities Financial Statement Line Items 20
+
+weight=400 italic=False margin-top=12pt  MIXED
+  count=1  avg_len=461  items=['8']
+    -  461  We also have audited, in accordance with the standards of the Public C
+

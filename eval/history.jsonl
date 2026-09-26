@@ -1,2 +1,4 @@
 {"timestamp": "2026-09-25T13:53:03", "kind": "retrieval", "git_commit": "a276db4", "metrics": {"recall@5": 1.0, "mrr": 0.9667}}
 {"timestamp": "2026-09-25T13:57:19", "kind": "answers", "git_commit": "a276db4", "metrics": {"answerable": 0.9667, "unanswerable": 1.0, "faithful": 19, "judged": 19, "errors": 0}}
+{"timestamp": "2026-09-25T14:40:11", "kind": "retrieval", "git_commit": "009a487", "metrics": {"recall@5": 1.0, "mrr": 0.9222}}
+{"timestamp": "2026-09-25T14:41:56", "kind": "answers", "git_commit": "009a487", "metrics": {"answerable": 0.9667, "unanswerable": 1.0, "faithful": 19, "judged": 19, "errors": 0}}
