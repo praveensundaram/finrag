@@ -9,7 +9,7 @@ import pytest
 from finrag.chunk import chunk_sections
 from finrag.config import (CHUNK_MIN, CHUNK_TARGET, CHUNKS_PATH, ITEMS,
                            RAW_PATH, VECTORS_PATH)
-from finrag.parse import load_text, split_sections
+from finrag.parse import load_sections
 
 FOOTER = re.compile(r"Apple Inc\. \| 2025 Form 10-K \| \d+")
 
@@ -17,7 +17,7 @@ FOOTER = re.compile(r"Apple Inc\. \| 2025 Form 10-K \| \d+")
 @pytest.fixture(scope="module")
 def sections():
     """Parse the filing once and share the result with every test in this file."""
-    return split_sections(load_text(RAW_PATH))
+    return load_sections(RAW_PATH)
 
 
 @pytest.fixture(scope="module")
@@ -57,7 +57,6 @@ def test_corpus_files_match():
     n_vectors = np.load(VECTORS_PATH).shape[0]
     assert n_chunks == n_vectors, f"{n_chunks} chunks but {n_vectors} vectors"
 
-@pytest.mark.xfail(reason="Page footers not stripped yet; fixed by the Phase 2 parser", strict=True)
 def test_no_page_footers(records):
     with_footer = [label(r) for r in records if FOOTER.search(r["text"])]
     assert not with_footer, f"{len(with_footer)} chunk(s) contain a page footer: {with_footer}"

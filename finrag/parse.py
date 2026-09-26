@@ -1,47 +1,23 @@
-"""Step 1: HTML filing -> labeled sections.
+"""Step 1: HTML filing -> labeled sections, using sec2md.
 
-This is the module Phase 2 replaces with the structure-aware parser.
+sec2md handles Item detection (Items 1-16), page footer removal, and tables.
 """
-import re
-
-from bs4 import BeautifulSoup
-
-from finrag.config import ITEMS
+import sec2md
 
 
-def load_text(path):
-    """Read the filing's HTML, strip scripts/styles, and return plain text."""
-    with open(path, "r", encoding="utf-8", errors="ignore") as f:
-        data = f.read()
-    soup = BeautifulSoup(data, "html.parser")
-    for tag in soup(["script", "style"]):
-        tag.decompose()
-    return soup.get_text(separator="\n")
-
-
-def find_last(text, item):
-    """Return the LAST character index where 'Item <item>.' appears, or -1.
-    Last-occurrence skips the table-of-contents copy and lands on the body header."""
-    pattern = re.compile(rf"Item\s+{re.escape(item)}\s*\.")
-    matches = list(pattern.finditer(text))
-    if not matches:
-        return -1
-    return matches[-1].start()
-
-
-def split_sections(text, items=ITEMS):
-    """Slice the text into sections, one per Item found, in document order.
-    Returns a list of {"item": ..., "text": ...}."""
-    found = []
-    for item in items:
-        pos = find_last(text, item)
-        if pos != -1:
-            found.append((item, pos))
-    found.sort(key=lambda pair: pair[1])
+def load_sections(path):
+    """Parse a 10-K and return one section per Item: [{"item": "3", "text": ...}, ...]."""
+    with open(path, "rb") as f:
+        html = f.read()
+    pages = sec2md.parse_filing(html)
+    items = sec2md.extract_sections(pages, filing_type="10-K")
 
     sections = []
-    for i in range(len(found)):
-        item, start = found[i]
-        end = found[i + 1][1] if i + 1 < len(found) else len(text)
-        sections.append({"item": item, "text": text[start:end].strip()})
+    for s in items:
+        if s.item is None:      # parts sec2md couldn't assign to an Item
+            continue
+        sections.append({
+            "item": s.item.replace("ITEM", "").strip(),   # "ITEM 1A" -> "1A"
+            "text": s.markdown(),
+        })
     return sections

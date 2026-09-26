@@ -20,7 +20,6 @@ VECTORS_PATH = os.path.join(OUT_DIR, "vectors.npy")
 
 # --- Sections ---
 # The Items we look for, in document order.
-# Known issue (eval/FINDINGS.md): stops at 9A, so Items 9B-16 get merged into 9A.
-# Left as-is for this refactor so scores stay identical; fixed in Phase 2.
-ITEMS = ["1", "1A", "1B", "1C", "2", "3", "4",
-         "5", "6", "7", "7A", "8", "9", "9A"]
+# All 10-K Items, in document order (sec2md finds all of them).
+ITEMS = ["1", "1A", "1B", "1C", "2", "3", "4", "5", "6", "7", "7A",
+         "8", "9", "9A", "9B", "9C", "10", "11", "12", "13", "14", "15", "16"]

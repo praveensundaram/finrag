@@ -8,11 +8,11 @@ import os
 
 import numpy as np
 
+from finrag.parse import load_sections
 from finrag.chunk import chunk_sections
 from finrag.clients import voyage_client
 from finrag.config import (BATCH_SIZE, CHUNKS_PATH, EMBED_MODEL, OUT_DIR,
                            RAW_PATH, VECTORS_PATH)
-from finrag.parse import load_text, split_sections
 
 
 def corpus_exists():
@@ -46,8 +46,7 @@ def save_corpus(records, vectors):
 
 def build_corpus(raw_path=RAW_PATH):
     """Full ingestion: parse -> chunk -> embed -> save."""
-    text = load_text(raw_path)
-    sections = split_sections(text)
+    sections = load_sections(raw_path)
     records = chunk_sections(sections)
     print(f"gathered {len(records)} chunks across {len(sections)} sections")
     vectors = embed_texts([rec["text"] for rec in records])

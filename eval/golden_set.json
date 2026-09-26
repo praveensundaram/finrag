@@ -73,14 +73,14 @@
   "id": "q11",
   "question": "Who is Apple's Chief Executive Officer?",
   "type": "answerable",
-  "expected_items": ["9A"],
+  "expected_items": ["16"],
   "reference_answer": "Timothy D. Cook (Tim Cook) is Apple's Chief Executive Officer and a Director, per the signature page of the 10-K dated October 31, 2025."
 },
 {
   "id": "q12",
   "question": "Who is Apple's Chief Financial Officer?",
   "type": "answerable",
-  "expected_items": ["9A"],
+  "expected_items": ["9B", "16"],
   "reference_answer": "Kevan Parekh is Apple's Chief Financial Officer, per the signature page of the 10-K."
 },
 {
