@@ -1,0 +1,8 @@
+anthropic==1.8.0
+beautifulsoup4==4.15.0
+numpy==2.5.3
+pytest==9.1.1
+python-dotenv==1.2.3
+rich==15.0.0
+sec2md==0.1.23
+voyageai==0.5.0
