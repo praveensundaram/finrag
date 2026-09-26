@@ -24,6 +24,8 @@ If the question type is "answerable":
   or contains a minor error.
 - INCORRECT: the answer misses the main point, gets a key fact wrong,
   or states things that are not supported by the reference.
+- A refusal (saying the information is not available or not in the context) is
+  INCORRECT for an answerable question, even if it does not guess.
 
 If the question type is "unanswerable":
 - CORRECT: the answer clearly says the information is not available in the filing
@@ -53,7 +55,6 @@ factual claim in the system's answer supported by the context?
 Respond with ONLY a JSON object, no other text and no markdown code fences:
 {"verdict": "CORRECT" | "PARTIAL" | "INCORRECT", "reason": "<one sentence>",
  "faithful": true | false, "unsupported_claims": ["<claim>", ...]}"""
-
 
 def judge(question, qtype, reference, system_answer, context):
     """Ask the judge to grade one answer. Returns a dict with
@@ -119,6 +120,14 @@ if __name__ == "__main__":
             "Services $109,158 (2025) vs $96,169 (2024).")
     ans2 = ("Services grew 14% and iPhone grew 4%, "
             "with iPhone contributing the largest dollar increase.")
-
+        # --- Refusal on an answerable question: must be INCORRECT ---
     result = judge("How did Apple's sales change?", "answerable", ref2, ans2, ctx2)
     print("faithfulness ->", result)
+
+
+    ref3 = "Kevan Parekh is Apple's Chief Financial Officer."
+    ctx3 = "[Source 1 — Item 16]\n| /s/ Kevan Parekh | Senior Vice President, Chief Financial Officer |"
+    ans3 = "The provided context does not name Apple's Chief Financial Officer."
+
+    result = judge("Who is Apple's Chief Financial Officer?", "answerable", ref3, ans3, ctx3)
+    print("refusal on answerable ->", result)
