@@ -4,7 +4,7 @@ One change at a time, each measured against the baseline (commit `8f569f9`: reca
 
 ## Diagnosis and measurement (do first)
 
-- [ ] **0. Housekeeping:** rename `claude.md` → `CLAUDE.md` and commit it.
+- [x] **0. Housekeeping:** rename `claude.md` → `CLAUDE.md` and commit it. Also: `backlog.md` → `BACKLOG.md`, Q&A bank moved to gitignored `notes/`, baseline per-question results saved as `eval/results_baseline_8f569f9.json`.
 - [ ] **1. Diagnose q23** (CORRECT but unfaithful): read `unsupported_claims` in `eval/results.json`. Answered from memory → tighten the grounding prompt. Claim is actually in the context → judge error. Claim is false → hallucination.
 - [ ] **1b. Fix gap wording in `SYSTEM_PROMPT`:** when details are missing, use plain, hedged, user-facing wording that names what was checked, e.g. *"I couldn't find more on this in the sections I reviewed (Item 3, Legal Proceedings); it may appear elsewhere in the filing."* Never "the filing doesn't say," and no RAG jargon like "excerpts" (end users don't know about retrieval). Context: q17 claimed the filing had no further detail when the detail sat in an unretrieved chunk, and the judge still marked it faithful. Optional later: when an answer looks incomplete, automatically retrieve more (bigger k or neighboring chunks) before answering.
 - [ ] **2. Diagnose q22 and q28** (PARTIAL): were the quarterly dividend rate / the $23.2B and $10.6B figures in the retrieved chunks? Decides retrieval problem vs generation problem.

@@ -69,7 +69,7 @@ Settings live in `finrag/config.py`; API clients in `finrag/clients.py`; keys in
 
 - Concept walkthrough of the whole project is complete.
 - Fixes are starting, in the order in `docs/BACKLOG.md`.
-- **Current item: 1 — diagnose q23** (read its `unsupported_claims`; decide: answered from memory → tighten prompt; claim actually in context → judge error; false claim → hallucination). First save the baseline per-question results: `cp eval/results.json eval/results_baseline_8f569f9.json`.
+- **Current item: 1 — diagnose q23** (read its `unsupported_claims`; decide: answered from memory → tighten prompt; claim actually in context → judge error; false claim → hallucination). Baseline per-question results are saved in `eval/results_baseline_8f569f9.json`.
 - The reranker (item 4) was designed but never added to the code.
 
 ## Other files

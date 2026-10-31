@@ -1,17 +1,28 @@
 # finrag — Eval Findings
 
-Baseline (commit a276db4, 2026-09-25):
-- Retrieval: recall@5 = 1.00, MRR = 0.9667 (15 answerable questions)
-- Answers: answerable = 0.9667, unanswerable = 1.00, faithful = 19/19
+Current baseline (commit 8f569f9, 2026-10-29), 37 questions (30 answerable, 7 unanswerable):
+- Retrieval: recall@5 = 0.93 (28/30), MRR = 0.92
+- Answers: answerable = 0.88, unanswerable = 1.00, faithful = 36/37
+- Misses: q11, q12 not retrieved (Item 16 signature chunk outranked by Item 15
+  exhibit list) and judged INCORRECT; q17, q22, q28 PARTIAL; q23 CORRECT but unfaithful.
+- Per-question results: eval/results_baseline_8f569f9.json
+- Unanswerable rose 0.79 → 1.00 because the judge policy changed in 8f569f9,
+  not because finrag improved.
 - Every run is logged in eval/history.jsonl
 
-## 1. Section detection stops at Item 9A
-- What: the ITEMS list in explore.py ends at "9A", so Items 9B–16, the exhibit
-  list, and the signature page are all labeled 9A (9A has 11 chunks; the real
+Original baseline (commit a276db4, 2026-09-25), 15 answerable + 4 unanswerable questions:
+recall@5 = 1.00, MRR = 0.9667, answerable = 0.9667, unanswerable = 1.00, faithful = 19/19.
+Findings 1–4 below were written against this baseline.
+
+## 1. Section detection stopped at Item 9A — FIXED in 17ec67b
+- What: the ITEMS list in explore.py ended at "9A", so Items 9B–16, the exhibit
+  list, and the signature page were all labeled 9A (9A had 11 chunks; the real
   Item 9A is about 1–2).
-- Impact: q11/q12 (CEO/CFO) use expected_items ["9A"] because that's where the
+- Impact: q11/q12 (CEO/CFO) used expected_items ["9A"] because that's where the
   signature page landed.
-- Fix (M4): extend ITEMS through Item 16, rebuild the corpus, relabel q11/q12.
+- Fix: parsing moved to sec2md (Step A), which yields all 23 Items (1–16).
+  q11 relabeled to ["16"], q12 to ["9B", "16"].
+- Follow-on: after relabeling, q11/q12 became real retrieval misses (see baseline above).
 
 ## 2. Chunk boundaries split related text
 - What: the Epic Games appeal is split across Item 3 chunks 2 and 3. Chunk 3
@@ -27,7 +38,9 @@ Baseline (commit a276db4, 2026-09-25):
 - Evidence: no failures yet, but a risk for numeric questions (e.g. q06).
 
 ## 4. Limits of the eval itself
-- Item-level recall@5 is at the ceiling (1.00), so it can't show improvement.
+- Item-level recall@5 was at the ceiling (1.00) on the original 15 questions.
+  With 37 questions it is 0.93, but it is still Item-level: q17 and q28 count as
+  hits even though the chunk with the answer detail wasn't retrieved.
   MRR is the more useful retrieval number.
 - The judge only checks claims against the reference answer. Added a
   faithfulness check after hand-checking found it passed a wrong claim in q03
