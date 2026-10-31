@@ -13,3 +13,5 @@
 {"timestamp": "2026-09-26T13:44:25", "kind": "answers", "git_commit": "b8261be", "metrics": {"answerable": 0.8333, "unanswerable": 0.875, "faithful": 19, "judged": 19, "errors": 0}}
 {"timestamp": "2026-09-26T13:50:59", "kind": "retrieval", "git_commit": "4e45612", "metrics": {"recall@5": 0.9333, "mrr": 0.9167}}
 {"timestamp": "2026-09-26T13:54:48", "kind": "answers", "git_commit": "4e45612", "metrics": {"answerable": 0.8833, "unanswerable": 0.7857, "faithful": 36, "judged": 37, "errors": 0}}
+{"timestamp": "2026-10-29T14:33:14", "kind": "retrieval", "git_commit": "8f569f9", "metrics": {"recall@5": 0.9333, "mrr": 0.9167}}
+{"timestamp": "2026-10-29T14:40:27", "kind": "answers", "git_commit": "8f569f9", "metrics": {"answerable": 0.8833, "unanswerable": 1.0, "faithful": 36, "judged": 37, "errors": 0}}
