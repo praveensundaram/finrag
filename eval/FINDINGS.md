@@ -89,6 +89,7 @@ Evidence:
   etc.); all 5 judged CORRECT and faithful, and a manual read agreed.
 - Result: 1 bad summary in 6 runs. No prompt change: fixing a one-off would be
   overfitting. Run-to-run noise comes from generation (and the judge), not
-  retrieval; generation uses the API default temperature (not set in generate.py).
+  retrieval. Temperature can't be lowered to reduce it: claude-sonnet-5 rejects
+  the parameter ("deprecated for this model"), for both generation and the judge.
   Faithful 36/37 vs 37/37 is within noise, which supports measuring variance
   (items 3b, 12) before trusting one-question changes.
