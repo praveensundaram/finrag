@@ -1,4 +1,24 @@
+# --- Secrets: never commit ---
 .env
+
+# --- Python environment and caches ---
 .venv*/
 __pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Generated data: rebuildable from data/raw + code ---
 data/processed/
+
+# --- Eval output that gets overwritten every run ---
+eval/results.json
+
+# --- Private notes (interview prep) ---
+notes/
+
+# --- Personal tool settings ---
+.claude/settings.local.json
+.vscode/
+
+# --- macOS clutter ---
+.DS_Store
