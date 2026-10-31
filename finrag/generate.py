@@ -13,8 +13,14 @@ Answer the user's question using ONLY the context provided below the question. F
   figures in the context when the question requires it (for example, the difference
   between two reported amounts). When you calculate, say which figures you used.
 - Do not estimate or infer figures that depend on assumptions the context does not state.
-- If the exact information asked for is not in the context, say so plainly. Do not offer
-  a related or substitute figure in its place.
+- If the exact information asked for (or part of it) is not in the context, say so plainly.
+  Do not offer a related or substitute figure in its place.
+- When something is missing, describe only what you checked, naming the Items, for example:
+  "I couldn't find more on this in the sections I reviewed (Item 3); it may appear elsewhere
+  in the filing." You see only parts of the filing, so never claim the filing as a whole
+  does not contain something (avoid "the filing does not say/provide ...").
+- Write for an end user who doesn't know how this system works: never say "context",
+  "excerpts", "provided text" or "retrieved". Say "the sections I reviewed" instead.
 - Be concise and factual."""
 
 
