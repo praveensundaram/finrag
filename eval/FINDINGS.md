@@ -74,3 +74,21 @@ Evidence:
 - Items 9B, 9C and 10–16 exist and use the same bold Item style.
 - Known limitation: in Item 8, "Note N –" headings and their subsections are both bold, so they
   land at the same level. Starting simple; revisit only if Item 8 questions suffer in the eval.
+## 6. q23 "unfaithful" was a one-off generation slip, not a pattern (backlog item 1)
+- What: at baseline 8f569f9, q23 (Apple vs S&P 500 over five years) was CORRECT but
+  unfaithful. The answer copied the stock table correctly, then summarized it as
+  "outperformed the S&P 500 in every measured year," contradicting its own table
+  (2021: Apple $132 vs S&P $137) and a later sentence in the same answer.
+- Diagnosis: a false claim (intrinsic hallucination: contradicts the context), not
+  answered from memory (every number came from the context) and not a judge error.
+  Correctness missed it because the reference only covers the 2025 end values;
+  the faithfulness check caught it.
+- Test: reran q23 5 times on the same commit (generation + judge, no code change).
+  Retrieval returned the identical 5 chunks every time (deterministic). All 5
+  answers summarized correctly ("every year since 2022", "except September 2021",
+  etc.); all 5 judged CORRECT and faithful, and a manual read agreed.
+- Result: 1 bad summary in 6 runs. No prompt change: fixing a one-off would be
+  overfitting. Run-to-run noise comes from generation (and the judge), not
+  retrieval; generation uses the API default temperature (not set in generate.py).
+  Faithful 36/37 vs 37/37 is within noise, which supports measuring variance
+  (items 3b, 12) before trusting one-question changes.
