@@ -2,11 +2,13 @@
 
 Grounded question answering over SEC 10-K filings, built from scratch with the evaluation harness first.
 
-Ask a question about a company's annual report and finrag answers only from the filing, cites the section it used, and says so plainly when the filing doesn't contain the answer.
+Ask a question about a company's annual report and finrag answers only from the filing, cites the section it used, and says so plainly when the filing doesn't contain the answer. Here it declines a question the filing can't answer, while pointing to what the filing does report:
 
 ```
-$ python3 ask.py "How much did Apple spend on share repurchases in fiscal 2025?"
-...answer with citations like (Source 2, Item 7)...
+$ python3 ask.py "How many iPhones did Apple sell in fiscal 2025?"
+
+Answer: The context does not provide the number of iPhone units sold in fiscal 2025—only
+net sales figures in dollars are reported ($209,586 million for iPhone in 2025, Source 2, Item 7).
 ```
 
 ## Why build it by hand
@@ -109,5 +111,8 @@ build.py         builds the corpus (parse → chunk → embed)
 ask.py           asks a question from the command line
 eval/            golden set, recall, judge, score, history log, FINDINGS.md
 tests/           ingestion tests (Items in order, chunk bounds, row alignment, no footers)
+tools/           style census used to map the filing's heading styles
+docs/            project notes and backlog
 data/raw/        the source filing
+CLAUDE.md        instructions for working on the repo with Claude Code
 ```
